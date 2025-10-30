@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+
+    <title>Fashion Minimal - Neoncart HTML5 Template</title>
+    <link rel="shortcut icon" href="assets/images/logo/favourite_icon_01.png" />
+
+    <!-- fraimwork - css include -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/bootstrap.min.css"
+    />
+
+    <!-- icon - css include -->
+    <link rel="stylesheet" type="text/css" href="assets/css/fontawesome.css" />
+
+    <!-- animation - css include -->
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.css" />
+
+    <!-- nice select - css include -->
+    <link rel="stylesheet" type="text/css" href="assets/css/nice-select.css" />
+
+    <!-- carousel - css include -->
+    <link rel="stylesheet" type="text/css" href="assets/css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css" />
+
+    <!-- popup images & videos - css include -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/magnific-popup.css"
+    />
+
+    <!-- jquery ui - css include -->
+    <link rel="stylesheet" type="text/css" href="assets/css/jquery-ui.css" />
+
+    <!-- custom - css include -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+
+    <style>
+      /* WhatsApp Button (Header & Modal) */
+      .whatsapp-btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        background-color: #25d366;
+        color: #fff !important;
+        padding: 8px 18px;
+        border-radius: 50px;
+        font-weight: 600;
+        font-size: 14px;
+        text-decoration: none !important;
+        transition: all 0.3s ease;
+        border: 2px solid transparent;
+        box-shadow: 0 2px 6px rgba(37, 211, 102, 0.25);
+      }
+
+      .whatsapp-btn i {
+        font-size: 18px;
+        line-height: 1;
+      }
+
+      .whatsapp-btn:hover {
+        background-color: #128c7e;
+        color: #fff !important;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 10px rgba(18, 140, 126, 0.4);
+      }
+
+      /* Adjust for header layout */
+      .header_section .whatsapp-btn {
+        margin-left: 15px;
+        white-space: nowrap;
+      }
+
+      /* Responsive tweak for smaller screens */
+      @media (max-width: 768px) {
+        .header_section .whatsapp-btn {
+          padding: 6px 14px;
+          font-size: 13px;
+        }
+        .whatsapp-btn i {
+          font-size: 16px;
+        }
+      }
+      .modal .whatsapp-btn {
+        font-size: 13px;
+        padding: 8px 20px;
+        gap: 6px;
+      }
+      /* Product Card Styles */
+
+      .product-card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        cursor: pointer;
+        height: 100%;
+      }
+
+      .product-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+      }
+
+      .product-card img {
+        height: 300px;
+        object-fit: cover;
+        cursor: pointer;
+      }
+
+      .product-tags {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        z-index: 1;
+      }
+
+      .product-tags .badge {
+        display: block;
+        margin-bottom: 5px;
+        font-size: 10px;
+        padding: 5px 10px;
+      }
+
+      .card-img-wrapper {
+        position: relative;
+        overflow: hidden;
+      }
+
+      .filter-section {
+        background: #f8f9fa;
+        padding: 30px 20px;
+        border-radius: 8px;
+        margin-bottom: 30px;
+      }
+
+      .category-buttons {
+        display: flex;
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .category-btn {
+        padding: 12px 30px;
+        border: 2px solid #ddd;
+        background: white;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 14px;
+      }
+
+      .category-btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      }
+
+      .category-btn.active {
+        background: #007bff;
+        color: white;
+        border-color: #007bff;
+      }
+
+      .modal-dialog {
+        max-width: 900px;
+      }
+
+      .quickview-image {
+        max-height: 500px;
+        object-fit: contain;
+      }
+
+      .rating_star {
+        color: #ffc107;
+      }
+
+      .modal .close {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        z-index: 1050;
+        opacity: 1;
+        font-size: 2rem;
+        font-weight: 700;
+        color: #000;
+        text-shadow: none;
+        background: white;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        border: 2px solid #ddd;
+        transition: all 0.3s ease;
+      }
+
+      .modal .close:hover {
+        background: #f8f9fa;
+        border-color: #007bff;
+        color: #007bff;
+        transform: rotate(90deg);
+      }
+
+      .whatsapp-btn {
+        background: #25d366;
+        color: white;
+        padding: 12px 30px;
+        border-radius: 50px;
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        font-weight: 600;
+        transition: all 0.3s ease;
+      }
+
+      .whatsapp-btn:hover {
+        background: #128c7e;
+        color: white;
+        text-decoration: none;
+        transform: translateY(-2px);
+        box-shadow: 0 5px 15px rgba(37, 211, 102, 0.3);
+      }
+
+      .whatsapp-btn i {
+        font-size: 24px;
+      }
+
+      @media (max-width: 768px) {
+        .category-buttons {
+          gap: 10px;
+        }
+
+        .category-btn {
+          padding: 10px 20px;
+          font-size: 12px;
+        }
+      }
+    </style>
+  </head>
+
+  <body class="home_fashion_minimal">
+    <!-- backtotop - start -->
+    <div id="thetop"></div>
+
+    <!-- header_section - start -->
+    <header
+      class="header_section classic_ecommerce_header sticky_header clearfix"
+    >
+      <div class="header_bottom clearfix">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-3">
+              <div class="brand_logo">
+                <a class="brand_link" href="#!">
+                  <img
+                    src="assets/home/logo/navlogo.png"
+                    srcset="assets/home/logo/navlogo.png"
+                    alt="logo_not_found"
+                  />
+                </a>
+
+                <ul class="mh_action_btns ul_li clearfix">
+                  <li>
+                    <button
+                      type="button"
+                      class="search_btn"
+                      data-toggle="collapse"
+                      data-target="#search_body_collapse"
+                      aria-expanded="false"
+                      aria-controls="search_body_collapse"
+                    >
+                      <i class="fal fa-search"></i>
+                    </button>
+                  </li>
+                  <li>
+                    <a
+                      href="https://wa.me/1234567890"
+                      target="_blank"
+                      class="cart_btn"
+                    >
+                      <i class="fab fa-whatsapp"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <button type="button" class="mobile_menu_btn">
+                      <i class="far fa-bars"></i>
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <nav class="main_menu clearfix">
+                <ul class="ul_li_center clearfix">
+                  <li>
+                    <a href="home_fashion_minimal.html">Home</a>
+                  </li>
+
+                  <li><a href="#!">About us</a></li>
+                  <li><a href="#!">Contact us</a></li>
+                  <li><a href="">Catalog</a></li>
+                </ul>
+              </nav>
+            </div>
+
+            <div class="col-lg-3 d-flex justify-content-end align-items-center">
+              <a
+                href="https://wa.me/1234567890"
+                target="_blank"
+                class="whatsapp-btn"
+              >
+                <i class="fab fa-whatsapp"></i>
+                +91 12345 67890
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header_section - end -->
+
+    <!-- main body - start -->
+    <main>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="filter-section">
+              <!-- Category Buttons -->
+              <div class="category-buttons" id="category-buttons">
+                <button class="category-btn active" data-category="all">
+                  All Products
+                </button>
+                <!-- Category buttons will be dynamically added here -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="product-list" class="row">
+          <!-- Products will be loaded here dynamically -->
+        </div>
+      </div>
+    </main>
+    <!-- main body - end -->
+
+    <!-- footer_section - start -->
+    <footer
+      class="footer_section fashion_minimal_footer clearfix"
+      data-bg-color="#222222"
+    >
+      <div class="backtotop" data-background="assets/images/shape_01.png">
+        <a href="#" class="scroll">
+          <i class="far fa-arrow-up"></i>
+        </a>
+      </div>
+
+      <div class="footer_widget_area sec_ptb_100 clearfix">
+        <div class="container">
+          <div class="row justify-content-lg-between">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+              <div class="footer_widget footer_about">
+                <div class="brand_logo mb_30">
+                  <a href="#!">
+                    <img
+                      src="assets/home/logo/logo.jpg"
+                      srcset="assets/home/logo/logo.jpg 2x"
+                      alt="logo_not_found"
+                    />
+                  </a>
+                </div>
+                <p class="mb-0">
+                  Etiam rhoncus sit amet adip scing sed ipsum. Lorem ipsum dolor
+                  sit amet adipiscing sem neque.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+              <div class="row justify-content-lg-between">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                  <div class="footer_widget footer_useful_links clearfix">
+                    <h3 class="footer_widget_title text-white">Contact</h3>
+                    <ul class="ul_li_block">
+                      <li><i class="fal fa-phone-square"></i> 666 888 0000</li>
+                      <li><i class="fal fa-envelope"></i> Jthemes@gmail.com</li>
+                      <li>
+                        <i class="fal fa-map"></i> 66 top broklyn street new
+                        york
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                  <div class="footer_widget footer_useful_links clearfix">
+                    <h3 class="footer_widget_title text-white">Links</h3>
+                    <ul class="ul_li_block">
+                      <li><a href="#!">About</a></li>
+                      <li><a href="#!">Contact</a></li>
+                      <li><a href="#!">Our Gallery</a></li>
+                      <li><a href="#!">Programs</a></li>
+                      <li><a href="#!">Events</a></li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                  <div class="footer_widget footer_useful_links clearfix">
+                    <h3 class="footer_widget_title text-white">Activities</h3>
+                    <ul class="ul_li_block">
+                      <li><a href="#!">Table/Floor Toys</a></li>
+                      <li><a href="#!">Outdoor Games</a></li>
+                      <li><a href="#!">Sand Play</a></li>
+                      <li><a href="#!">Play Dough</a></li>
+                      <li><a href="#!">Building Blocks</a></li>
+                      <li><a href="#!">Water Play</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+              <div class="footer_widget fm_footer_newsletter">
+                <h3 class="footer_widget_title text-white">Activities</h3>
+                <form action="#">
+                  <div class="form_item">
+                    <input
+                      type="email"
+                      name="email"
+                      placeholder="Email address"
+                    />
+                  </div>
+                  <button type="submit" class="submit_btn text-uppercase">
+                    Subscribe
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="footer_bottom text-center">
+          <ul class="circle_social_links ul_li_center clearfix">
+            <li>
+              <a href="#!"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="#!"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#!"><i class="fab fa-youtube"></i></a>
+            </li>
+          </ul>
+          <p class="copyright_text mb-0">
+            © Copyrights, 2019
+            <a href="#!" class="author_link text-white">Neoncart.com</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- footer_section - end -->
+
+    <!-- fraimwork - jquery include -->
+    <script src="assets/js/jquery-3.5.1.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- mobile menu - jquery include -->
+    <script src="assets/js/mCustomScrollbar.js"></script>
+
+    <!-- google map - jquery include -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDk2HrmqE4sWSei0XdKGbOMOHN3Mm2Bf-M&ver=2.1.6"></script>
+    <script src="assets/js/gmaps.min.js"></script>
+
+    <!-- animation - jquery include -->
+    <script src="assets/js/parallaxie.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+
+    <!-- nice select - jquery include -->
+    <script src="assets/js/nice-select.min.js"></script>
+
+    <!-- carousel - jquery include -->
+    <script src="assets/js/slick.min.js"></script>
+
+    <!-- countdown timer - jquery include -->
+    <script src="assets/js/countdown.js"></script>
+
+    <!-- popup images & videos - jquery include -->
+    <script src="assets/js/magnific-popup.min.js"></script>
+
+    <!-- filtering & masonry layout - jquery include -->
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/masonry.pkgd.min.js"></script>
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+
+    <!-- jquery ui - jquery include -->
+    <script src="assets/js/jquery-ui.js"></script>
+
+    <!-- custom - jquery include -->
+    <script src="assets/js/custom.js"></script>
+
+    <!-- product quick view - start -->
+    <div
+      class="quickview_modal modal fade"
+      id="quickview_modal"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content clearfix">
+          <button
+            type="button"
+            class="close"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="item_image p-3">
+                <img
+                  id="modal-product-image"
+                  src=""
+                  alt="image_not_found"
+                  class="img-fluid quickview-image"
+                />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="item_content p-4">
+                <h2 class="item_title mb_15" id="modal-product-name"></h2>
+                <div class="rating_star mb_30 clearfix">
+                  <ul class="float-left ul_li mr-2">
+                    <li class="active"><i class="las la-star"></i></li>
+                    <li class="active"><i class="las la-star"></i></li>
+                    <li class="active"><i class="las la-star"></i></li>
+                    <li class="active"><i class="las la-star"></i></li>
+                    <li><i class="las la-star"></i></li>
+                  </ul>
+                  <!-- <span class="review_text">(12 Reviews)</span> -->
+                </div>
+                <div class="product-info mb_30">
+                  <p>
+                    <strong>Category:</strong>
+                    <span id="modal-product-category"></span>
+                  </p>
+                  <p>
+                    <strong>Material:</strong>
+                    <span id="modal-product-material"></span>
+                  </p>
+                  <p>
+                    <strong>Weight:</strong>
+                    <span id="modal-product-weight"></span>
+                  </p>
+                  <div id="modal-product-tags" class="mt-2"></div>
+                </div>
+
+                <div class="text-center mb-3">
+                  <a
+                    href="https://wa.me/1234567890"
+                    target="_blank"
+                    class="whatsapp-btn"
+                  >
+                    <i class="fab fa-whatsapp"></i>
+                    1234567890
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- product quick view - end -->
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const productList = document.getElementById("product-list");
+        const categoryButtonsContainer =
+          document.getElementById("category-buttons");
+
+        let catalogData = null;
+        let allProducts = [];
+        let selectedMainCategory = "all";
+
+        // Fetch product data from JSON file
+        fetch("product.json")
+          .then((response) => response.json())
+          .then((data) => {
+            catalogData = data;
+
+            // Flatten all products
+            allProducts = data.jewelry_catalog.categories.flatMap((category) =>
+              category.products.map((product) => ({
+                ...product,
+                mainCategory: category.name,
+                mainCategoryId: category.id,
+              }))
+            );
+
+            // Create category buttons
+            data.jewelry_catalog.categories.forEach((category) => {
+              const button = document.createElement("button");
+              button.className = "category-btn";
+              button.setAttribute("data-category", category.id);
+              button.textContent = category.name;
+              categoryButtonsContainer.appendChild(button);
+            });
+
+            // Display all products by default
+            displayProducts(allProducts);
+
+            // Add click event listeners to category buttons
+            setupCategoryButtons();
+          })
+          .catch((error) =>
+            console.error("Error fetching product data:", error)
+          );
+
+        // Setup category button click handlers
+        function setupCategoryButtons() {
+          const categoryButtons = document.querySelectorAll(".category-btn");
+
+          categoryButtons.forEach((button) => {
+            button.addEventListener("click", () => {
+              // Remove active class from all buttons
+              categoryButtons.forEach((btn) => btn.classList.remove("active"));
+
+              // Add active class to clicked button
+              button.classList.add("active");
+
+              const category = button.getAttribute("data-category");
+              selectedMainCategory = category;
+
+              if (category === "all") {
+                displayProducts(allProducts);
+              } else {
+                // Filter products by main category
+                const filteredProducts = allProducts.filter(
+                  (product) => product.mainCategoryId === category
+                );
+                displayProducts(filteredProducts);
+              }
+            });
+          });
+        }
+
+        // Function to display products
+        function displayProducts(products) {
+          productList.innerHTML = "";
+          if (products.length === 0) {
+            productList.innerHTML =
+              '<div class="col-12 text-center"><h4>No products found</h4></div>';
+            return;
+          }
+
+          products.forEach((product) => {
+            const tagsHTML = product.tags
+              ? product.tags
+                  .map((tag) => {
+                    const badgeClass =
+                      tag === "NEW"
+                        ? "badge-success"
+                        : tag === "BESTSELLER"
+                        ? "badge-danger"
+                        : tag === "PREMIUM"
+                        ? "badge-warning"
+                        : tag === "EXCLUSIVE"
+                        ? "badge-info"
+                        : "badge-primary";
+                    return `<span class="badge ${badgeClass}">${tag}</span>`;
+                  })
+                  .join("")
+              : "";
+
+            const productCard = `
+              <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card product-card">
+                  <div class="card-img-wrapper">
+                    <div class="product-tags">
+                      ${tagsHTML}
+                    </div>
+                    <img src="${product.image}" class="card-img-top" alt="${
+              product.name
+            }" 
+                         onclick='openQuickView(${JSON.stringify(
+                           product
+                         ).replace(/'/g, "&apos;")})'>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">${product.name}</h5>
+                    <p class="card-text mb-1"><strong>Category:</strong> ${
+                      product.category
+                    }</p>
+                    <p class="card-text mb-2"><strong>Weight:</strong> ${
+                      product.weight
+                    }</p>
+                    <button class="btn btn-primary btn-sm" onclick='openQuickView(${JSON.stringify(
+                      product
+                    ).replace(/'/g, "&apos;")})'>
+                      Quick View
+                    </button>
+                  </div>
+                </div>
+              </div>
+            `;
+            productList.innerHTML += productCard;
+          });
+        }
+
+        // Make openQuickView function global
+        window.openQuickView = function (product) {
+          document.getElementById("modal-product-name").textContent =
+            product.name;
+          document.getElementById("modal-product-category").textContent =
+            product.category;
+          document.getElementById("modal-product-material").textContent =
+            product.material;
+          document.getElementById("modal-product-weight").textContent =
+            product.weight;
+          document.getElementById("modal-product-image").src = product.image;
+
+          // Display tags
+          const tagsContainer = document.getElementById("modal-product-tags");
+          if (product.tags && product.tags.length > 0) {
+            const tagsHTML = product.tags
+              .map((tag) => {
+                const badgeClass =
+                  tag === "NEW"
+                    ? "badge-success"
+                    : tag === "BESTSELLER"
+                    ? "badge-danger"
+                    : tag === "PREMIUM"
+                    ? "badge-warning"
+                    : tag === "EXCLUSIVE"
+                    ? "badge-info"
+                    : "badge-primary";
+                return `<span class="badge ${badgeClass} mr-1">${tag}</span>`;
+              })
+              .join("");
+            tagsContainer.innerHTML = tagsHTML;
+          } else {
+            tagsContainer.innerHTML = "";
+          }
+
+          $("#quickview_modal").modal("show");
+        };
+      });
+    </script>
+  </body>
+</html>

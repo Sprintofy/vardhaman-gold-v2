@@ -1,0 +1,456 @@
+{
+  "jewelry_catalog": {
+    "categories": [
+      {
+        "id": "rings",
+        "name": "Rings",
+        "products": [
+          {
+            "id": "R001",
+            "name": "Gold Ring Lord Ganesh 22K Two Tone",
+            "category": "Men's gold rings",
+            "weight": "4.10 Grams",
+            "material": "22KT Gold",
+            "price": 25000,
+            "image": "assets/home/Rings/ring1.png",
+            "tags": ["NEW", "BESTSELLER"]
+          },
+          {
+            "id": "R002",
+            "name": "Gold Ring Lord Ganesh 22K",
+            "category": "Men's gold rings",
+            "weight": "4.10 Grams",
+            "material": "22KT Gold",
+            "price": 25000,
+            "image": "assets/home/Rings/ring2.png",
+            "tags": ["NEW"]
+          },
+          {
+            "id": "R003",
+            "name": "Gold Ring Lord Balaji For Men With CZ",
+            "category": "Men's gold rings",
+            "weight": "7.50 Grams",
+            "material": "22KT Gold",
+            "price": 32000,
+            "image": "assets/home/Rings/ring3.png",
+            "tags": ["BESTSELLER"]
+          },
+          {
+            "id": "R004",
+            "name": "Men's OM Gold Ring With CZ Stones",
+            "category": "Men's gold rings",
+            "weight": "7.80 Grams",
+            "material": "22KT Gold",
+            "price": 38000,
+            "image": "assets/home/Rings/ring4.png",
+            "tags": ["NEW", "POPULAR"]
+          },
+          {
+            "id": "R005",
+            "name": "Men's Initial R Ring With CZ Stones",
+            "category": "Men's gold rings",
+            "weight": "7.50 Grams",
+            "material": "22KT Gold",
+            "price": 36000,
+            "image": "assets/home/Rings/ring5.png",
+            "tags": ["POPULAR"]
+          },
+          {
+            "id": "R006",
+            "name": "Gold Ring 22k Two Tone",
+            "category": "Ladies gold rings",
+            "weight": "5.30 Grams",
+            "material": "22KT Gold",
+            "price": 28000,
+            "image": "assets/home/Rings/ring6.png",
+            "tags": ["NEW"]
+          },
+          {
+            "id": "R007",
+            "name": "Gold Ring 22k",
+            "category": "Ladies gold rings",
+            "weight": "4.92 Grams",
+            "material": "22KT Gold",
+            "price": 26000,
+            "image": "assets/home/Rings/ring7.png",
+            "tags": ["NEW"]
+          },
+          {
+            "id": "R008",
+            "name": "Gold Ring For Men With CZ",
+            "category": "Men's gold rings",
+            "weight": "7.20 Grams",
+            "material": "22KT Gold",
+            "price": 35000,
+            "image": "assets/home/Rings/ring8.png",
+            "tags": ["BESTSELLER"]
+          },
+          {
+            "id": "R009",
+            "name": "Gold Ring For Men With CZ",
+            "category": "Men's gold rings",
+            "weight": "6.50 Grams",
+            "material": "22KT Gold",
+            "price": 33000,
+            "image": "assets/home/Rings/ring9.png",
+            "tags": ["BESTSELLER"]
+          },
+          {
+            "id": "R010",
+            "name": "Men's Ring With Cubic Zirconium Stones",
+            "category": "Men's gold rings",
+            "weight": "9.00 Grams",
+            "material": "22KT Gold",
+            "price": 42000,
+            "image": "assets/home/Rings/ring10.png",
+            "tags": ["BESTSELLER", "PREMIUM"]
+          },
+          {
+            "id": "R011",
+            "name": "Men's Ring With CZ Stones 22k Gold",
+            "category": "Men's gold rings",
+            "weight": "7.50 Grams",
+            "material": "22KT Gold",
+            "price": 38000,
+            "image": "assets/home/Rings/ring11.png",
+            "tags": ["POPULAR"]
+          },
+          {
+            "id": "R012",
+            "name": "Men's OM Gold Ring With CZ Stones",
+            "category": "Men's gold rings",
+            "weight": "7.80 Grams",
+            "material": "22KT Gold",
+            "price": 39000,
+            "image": "assets/home/Rings/ring12.png",
+            "tags": ["POPULAR"]
+          },
+          {
+            "id": "R013",
+            "name": "Men's Initial R Ring With CZ",
+            "category": "Men's gold rings",
+            "weight": "11.10 Grams",
+            "material": "22KT Gold",
+            "price": 48000,
+            "image": "assets/home/Rings/ring13.png",
+            "tags": ["PREMIUM"]
+          },
+          {
+            "id": "R014",
+            "name": "Men's Ring With Stone 22k Gold",
+            "category": "Men's gold rings",
+            "weight": "7.20 Grams",
+            "material": "22KT Gold",
+            "price": 36000,
+            "image": "assets/home/Rings/ring14.png",
+            "tags": ["POPULAR"]
+          }
+        ]
+      },
+      {
+        "id": "chains",
+        "name": "Chains",
+        "products": [
+          {
+            "id": "C001",
+            "name": "Gold Hollow Rope Chain 16 Inches",
+            "category": "Gold Chains",
+            "weight": "9.40 Grams",
+            "material": "22KT Gold",
+            "price": 55000,
+            "image": "assets/home/Chain/chain1.png",
+            "tags": ["NEW", "BESTSELLER"]
+          }
+        ]
+      },
+      {
+        "id": "bangles",
+        "name": "Bangles",
+        "products": [
+          {
+            "id": "B001",
+            "name": "Gold Bangles Set Of Two 22KT",
+            "category": "Gold Bangles",
+            "weight": "23.80 Grams",
+            "material": "22KT Gold",
+            "price": 140000,
+            "image": "assets/home/Bengals/bengals1.png",
+            "tags": ["PREMIUM"]
+          },
+          {
+            "id": "B002",
+            "name": "Classic Gold Bangles Set Of Two",
+            "category": "Gold Bangles",
+            "weight": "19.00 Grams",
+            "material": "22KT Gold",
+            "price": 115000,
+            "image": "assets/home/Bengals/bengals2.png",
+            "tags": ["BESTSELLER"]
+          },
+          {
+            "id": "B003",
+            "name": "Elegant Gold Bangles Set Of Two",
+            "category": "Gold Bangles",
+            "weight": "19.72 Grams",
+            "material": "22KT Gold",
+            "price": 118000,
+            "image": "assets/home/Bengals/bengals3.png",
+            "tags": ["NEW"]
+          },
+          {
+            "id": "B004",
+            "name": "Designer Gold Bangles Set Of Two",
+            "category": "Gold Bangles",
+            "weight": "25.30 Grams",
+            "material": "22KT Gold",
+            "price": 148000,
+            "image": "assets/home/Bengals/bengals4.png",
+            "tags": ["PREMIUM"]
+          },
+          {
+            "id": "B005",
+            "name": "22k Gold Bangles Set Of Two",
+            "category": "Gold Bangles",
+            "weight": "27.60 Grams",
+            "material": "22KT Gold",
+            "price": 162000,
+            "image": "assets/home/Bengals/bengals5.png",
+            "tags": ["PREMIUM"]
+          },
+          {
+            "id": "B006",
+            "name": "Gold Bangles Set Hand Print",
+            "category": "Gold Bangles",
+            "weight": "36.26 Grams",
+            "material": "22KT Gold",
+            "price": 210000,
+            "image": "assets/home/Bengals/bengals6.png",
+            "tags": ["PREMIUM", "EXCLUSIVE"]
+          },
+          {
+            "id": "B007",
+            "name": "22k Gold Bangles with Enamel",
+            "category": "Exquisite Bangles",
+            "weight": "41.10 Grams",
+            "material": "22KT Gold",
+            "price": 245000,
+            "image": "assets/home/Bengals/bengals7.png",
+            "tags": ["PREMIUM", "EXCLUSIVE"]
+          },
+          {
+            "id": "B008",
+            "name": "22k Gold Bangles Exquisite",
+            "category": "Exquisite Bangles",
+            "weight": "48.90 Grams",
+            "material": "22KT Gold",
+            "price": 285000,
+            "image": "assets/home/Bengals/bengals8.png",
+            "tags": ["PREMIUM", "BESTSELLER", "EXCLUSIVE"]
+          }
+        ]
+      },
+      {
+        "id": "necklaces",
+        "name": "Necklaces",
+        "products": [
+          {
+            "id": "N001",
+            "name": "Gold Necklace and Earring Set 22K",
+            "category": "Gold Sets",
+            "weight": "38.70 Grams",
+            "material": "22KT Gold",
+            "price": 230000,
+            "image": "assets/home/Neckless/neckless1.png",
+            "tags": ["EXCLUSIVE", "PREMIUM"]
+          },
+          {
+            "id": "N002",
+            "name": "Gold Necklace Set With Stones & Enamel",
+            "category": "Gold Sets",
+            "weight": "52.80 Grams",
+            "material": "22KT Gold",
+            "price": 310000,
+            "image": "assets/home/Neckless/neckless2.png",
+            "tags": ["BESTSELLER", "PREMIUM"]
+          },
+          {
+            "id": "N003",
+            "name": "Necklace 22K Gold",
+            "category": "Gold necklaces",
+            "weight": "43.40 Grams",
+            "material": "22KT Gold",
+            "price": 255000,
+            "image": "assets/home/Neckless/neckless3.png",
+            "tags": ["PREMIUM"]
+          },
+          {
+            "id": "N004",
+            "name": "Simple Necklace 22K Gold",
+            "category": "Gold necklaces",
+            "weight": "5.10 Grams",
+            "material": "22KT Gold",
+            "price": 32000,
+            "image": "assets/home/Neckless/neckless4.png",
+            "tags": ["NEW"]
+          },
+          {
+            "id": "N005",
+            "name": "Gold Necklace With Enamel",
+            "category": "Gold necklaces",
+            "weight": "44.00 Grams",
+            "material": "22KT Gold",
+            "price": 260000,
+            "image": "assets/home/Neckless/neckless5.png",
+            "tags": ["PREMIUM", "EXCLUSIVE"]
+          },
+          {
+            "id": "N006",
+            "name": "Gold Chain With Pendant 22k",
+            "category": "Gold necklaces",
+            "weight": "6.80 Grams",
+            "material": "22KT Gold",
+            "price": 42000,
+            "image": "assets/home/Neckless/neckless6.png",
+            "tags": ["NEW", "POPULAR"]
+          },
+          {
+            "id": "N007",
+            "name": "Traditional Gold Necklace And Earring Set",
+            "category": "Gold Sets",
+            "weight": "49.30 Grams",
+            "material": "22KT Gold",
+            "price": 290000,
+            "image": "assets/home/Neckless/neckless7.png",
+            "tags": ["BESTSELLER", "PREMIUM"]
+          },
+          {
+            "id": "N008",
+            "name": "Gold Necklace And Earring Set Two-tone",
+            "category": "Gold Sets",
+            "weight": "34.90 Grams",
+            "material": "22KT Gold",
+            "price": 210000,
+            "image": "assets/home/Neckless/neckless8.png",
+            "tags": ["PREMIUM"]
+          },
+          {
+            "id": "N009",
+            "name": "Gold Necklace Set Hand Paint",
+            "category": "Gold Sets",
+            "weight": "92.30 Grams",
+            "material": "22KT Gold",
+            "price": 540000,
+            "image": "assets/home/Neckless/neckless9.png",
+            "tags": ["PREMIUM", "EXCLUSIVE"]
+          },
+          {
+            "id": "N010",
+            "name": "Gold Necklace And Earring Set with Enamel",
+            "category": "Gold Sets",
+            "weight": "45.40 Grams",
+            "material": "22KT Gold",
+            "price": 268000,
+            "image": "assets/home/Neckless/neckless10.png",
+            "tags": ["PREMIUM", "BESTSELLER"]
+          },
+          {
+            "id": "N011",
+            "name": "Gold Necklace Earring Set With Stones",
+            "category": "Gold Sets",
+            "weight": "37.00 Grams",
+            "material": "22KT Gold",
+            "price": 220000,
+            "image": "assets/home/Neckless/neckless11.png",
+            "tags": ["PREMIUM"]
+          }
+        ]
+      },
+      {
+        "id": "earrings",
+        "name": "Earrings",
+        "products": [
+          {
+            "id": "E001",
+            "name": "Gold Earrings 22K",
+            "category": "Gold earrings",
+            "weight": "4.40 Grams",
+            "material": "22KT Gold",
+            "price": 26000,
+            "image": "assets/home/Earrings/earring1.png",
+            "tags": ["NEW", "BESTSELLER"]
+          },
+          {
+            "id": "E002",
+            "name": "Gold Earrings with Enamel 22K",
+            "category": "Gold earrings",
+            "weight": "8.10 Grams",
+            "material": "22KT Gold",
+            "price": 48000,
+            "image": "assets/home/Earrings/earring2.png",
+            "tags": ["NEW", "EXCLUSIVE"]
+          },
+          {
+            "id": "E003",
+            "name": "Gold Earrings With Stone Two Tone",
+            "category": "Gold earrings",
+            "weight": "6.04 Grams",
+            "material": "22KT Gold",
+            "price": 36000,
+            "image": "assets/home/Earrings/earring3.png",
+            "tags": ["NEW"]
+          },
+          {
+            "id": "E004",
+            "name": "Gold Earrings 22k Traditional",
+            "category": "Gold earrings",
+            "weight": "9.80 Grams",
+            "material": "22KT Gold",
+            "price": 58000,
+            "image": "assets/home/Earrings/earring4.png",
+            "tags": ["BESTSELLER", "POPULAR"]
+          },
+          {
+            "id": "E005",
+            "name": "Gold Hook Earrings 22k",
+            "category": "Gold earrings",
+            "weight": "6.50 Grams",
+            "material": "22KT Gold",
+            "price": 38000,
+            "image": "assets/home/Earrings/earring5.png",
+            "tags": ["BESTSELLER"]
+          },
+          {
+            "id": "E006",
+            "name": "Drop Gold Earrings 22k",
+            "category": "Gold earrings",
+            "weight": "9.90 Grams",
+            "material": "22KT Gold",
+            "price": 58000,
+            "image": "assets/home/Earrings/earring6.png",
+            "tags": ["POPULAR"]
+          },
+          {
+            "id": "E007",
+            "name": "Gold Earrings with Enamel Work",
+            "category": "Gold earrings",
+            "weight": "6.80 Grams",
+            "material": "22KT Gold",
+            "price": 42000,
+            "image": "assets/home/Earrings/earring7.png",
+            "tags": ["POPULAR"]
+          },
+          {
+            "id": "E008",
+            "name": "Gold Earrings With Stone Work",
+            "category": "Gold earrings",
+            "weight": "6.76 Grams",
+            "material": "22KT Gold",
+            "price": 40000,
+            "image": "assets/home/Earrings/earring8.png",
+            "tags": ["BESTSELLER"]
+          }
+        ]
+      }
+    ]
+  }
+}
