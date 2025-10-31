@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+
+    <title>About Us - Vardhman Gold</title>
+    <link rel="shortcut icon" href="assets/home/logo/logo.jpg" />
+
+    <!-- fraimwork - css include -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/bootstrap.min.css"
+    />
+
+    <!-- icon - css include -->
+    <link rel="stylesheet" type="text/css" href="assets/css/fontawesome.css" />
+
+    <!-- animation - css include -->
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.css" />
+
+    <!-- nice select - css include -->
+    <link rel="stylesheet" type="text/css" href="assets/css/nice-select.css" />
+
+    <!-- carousel - css include -->
+    <link rel="stylesheet" type="text/css" href="assets/css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css" />
+
+    <!-- popup images & videos - css include -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/magnific-popup.css"
+    />
+
+    <!-- jquery ui - css include -->
+    <link rel="stylesheet" type="text/css" href="assets/css/jquery-ui.css" />
+
+    <!-- custom - css include -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <style>
+      .item_title,
+      .item_price {
+        color: white;
+      }
+
+      .whatsapp-btn-wrapper {
+        text-align: center;
+        margin-top: 10px;
+      }
+
+      .whatsapp-btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+        background-color: #25d366;
+        color: #fff !important;
+        padding: 8px 18px;
+        border-radius: 40px;
+        font-size: 14px;
+        font-weight: 500;
+        text-decoration: none !important;
+        box-shadow: 0 3px 10px rgba(37, 211, 102, 0.3);
+        transition: all 0.25s ease;
+      }
+
+      .whatsapp-btn i {
+        font-size: 18px;
+        line-height: 1;
+      }
+
+      .whatsapp-btn:hover {
+        background-color: #1ebe5d;
+        transform: translateY(-2px);
+        box-shadow: 0 5px 12px rgba(37, 211, 102, 0.4);
+      }
+
+      .header_section .whatsapp-btn {
+        margin-left: 10px;
+        vertical-align: middle;
+      }
+
+      /* Responsive tweak for smaller screens */
+      @media (max-width: 768px) {
+        .header_section .whatsapp-btn {
+          padding: 6px 14px;
+          font-size: 13px;
+        }
+        .whatsapp-btn i {
+          font-size: 16px;
+        }
+      }
+      .modal .whatsapp-btn {
+        font-size: 13px;
+        padding: 8px 20px;
+        gap: 6px;
+      }
+
+      /* Custom About Section Styles */
+      .about_content_box {
+        background: #fff;
+        padding: 40px;
+        border-radius: 8px;
+        box-shadow: 0 2px 15px rgba(0, 0, 0, 0.08);
+        margin-bottom: 30px;
+      }
+
+      .about_content_box h2 {
+        color: #c9a961;
+        font-size: 32px;
+        margin-bottom: 20px;
+        font-weight: 600;
+      }
+
+      .about_content_box h3 {
+        color: #333;
+        font-size: 24px;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        font-weight: 600;
+      }
+
+      .about_content_box p {
+        color: #666;
+        line-height: 1.8;
+        margin-bottom: 15px;
+        font-size: 16px;
+      }
+
+      .values_grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 30px;
+        margin-top: 40px;
+      }
+
+      .value_item {
+        text-align: center;
+        padding: 30px 20px;
+        background: #f9f9f9;
+        border-radius: 8px;
+        transition: transform 0.3s ease;
+      }
+
+      .value_item:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 5px 20px rgba(201, 169, 97, 0.2);
+      }
+
+      .value_item i {
+        font-size: 48px;
+        color: #c9a961;
+        margin-bottom: 20px;
+      }
+
+      .value_item h4 {
+        color: #333;
+        font-size: 20px;
+        margin-bottom: 10px;
+        font-weight: 600;
+      }
+
+      .value_item p {
+        color: #666;
+        font-size: 14px;
+        line-height: 1.6;
+      }
+
+      .stats_section {
+        background: linear-gradient(135deg, #c9a961 0%, #d4b879 100%);
+        padding: 60px 0;
+        margin: 50px 0;
+      }
+
+      .stat_item {
+        text-align: center;
+        color: white;
+      }
+
+      .stat_item h3 {
+        font-size: 48px;
+        font-weight: 700;
+        margin-bottom: 10px;
+        color: white;
+      }
+
+      .stat_item p {
+        font-size: 18px;
+        color: rgba(255, 255, 255, 0.9);
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- backtotop - start -->
+    <div id="thetop"></div>
+    <div class="backtotop bg_default_red">
+      <a href="#" class="scroll">
+        <i class="far fa-arrow-up"></i>
+      </a>
+    </div>
+    <!-- backtotop - end -->
+
+    <!-- header_section - start -->
+    <header
+      class="header_section classic_ecommerce_header sticky_header clearfix"
+    >
+      <div class="header_bottom clearfix">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-3">
+              <div class="brand_logo">
+                <a class="brand_link" href="#!">
+                  <img
+                    src="assets/home/logo/navlogo.png"
+                    srcset="assets/home/logo/navlogo.png"
+                    alt="logo_not_found"
+                  />
+                </a>
+
+                <ul class="mh_action_btns ul_li clearfix">
+                  <li>
+                    <button
+                      type="button"
+                      class="search_btn"
+                      data-toggle="collapse"
+                      data-target="#search_body_collapse"
+                      aria-expanded="false"
+                      aria-controls="search_body_collapse"
+                    >
+                      <i class="fal fa-search"></i>
+                    </button>
+                  </li>
+                  <li>
+                    <button type="button" class="cart_btn">
+                      <i class="fal fa-shopping-cart"></i>
+                      <span class="btn_badge">2</span>
+                    </button>
+                  </li>
+                  <li>
+                    <button type="button" class="mobile_menu_btn">
+                      <i class="far fa-bars"></i>
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <nav class="main_menu clearfix">
+                <ul class="ul_li_center clearfix">
+                  <li>
+                    <a href="index.html">Home</a>
+                  </li>
+
+                  <li><a href="#!">About us</a></li>
+                  <li><a href="contact.html">Contact us</a></li>
+                  <li><a href="catalog.html">Catalog</a></li>
+                </ul>
+              </nav>
+            </div>
+
+            <div class="whatsapp-btn-wrapper text-center">
+              <a
+                href="https://wa.me/1234567890"
+                target="_blank"
+                class="whatsapp-btn"
+              >
+                <i class="fab fa-whatsapp"></i>
+                1234567890
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header_section - end -->
+
+    <!-- main body - start -->
+    <main>
+      <!-- breadcrumb_section - start -->
+      <section
+        class="breadcrumb_section text-white text-center text-uppercase d-flex align-items-end clearfix"
+        data-background="https://images.unsplash.com/photo-1708268765147-82cf60cb4cbb?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGpld2VsbGVyeSUyMGdvbGQlMjBhYm91dCUyMHVzfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=600"
+      >
+        <div class="overlay" data-bg-color="#1d1d1d"></div>
+        <div class="container">
+          <h1 class="page_title text-white">About Us</h1>
+          <ul class="breadcrumb_nav ul_li_center clearfix">
+            <li><a href="index.html">Home</a></li>
+            <li>About Us</li>
+          </ul>
+        </div>
+      </section>
+      <!-- breadcrumb_section - end -->
+
+      <!-- about_section - start -->
+      <section class="sec_ptb_100 clearfix">
+        <div class="container">
+          <div class="about_content_box">
+            <h2>Welcome to Vardhman Gold</h2>
+            <p>
+              At Vardhman Gold, we believe that jewellery is more than just an
+              accessory—it's a celebration of life's most precious moments. For
+              over decades, we have been crafting exquisite pieces that blend
+              traditional artistry with contemporary elegance, bringing you the
+              finest collection of 22KT pure gold and bridal jewellery.
+            </p>
+            <p>
+              Our journey began with a simple vision: to create jewellery that
+              captures the essence of Indian heritage while embracing modern
+              aesthetics. Today, we stand proud as one of Pune's most trusted
+              names in gold jewellery, serving generations of families who have
+              made us a part of their special occasions.
+            </p>
+
+            <h3>Our Heritage</h3>
+            <p>
+              Rooted in the rich cultural tapestry of India, every piece at
+              Vardhman Gold tells a story. Our master craftsmen, with their
+              decades of experience, meticulously handcraft each design with
+              precision and passion. From intricate Bengali bridal sets
+              featuring delicate filigree work to contemporary diamond pieces
+              that shimmer with modern sophistication, our collection embodies
+              timeless elegance.
+            </p>
+            <p>
+              We take immense pride in preserving traditional jewelry-making
+              techniques—from the authentic Ahmedabadi die-work to the
+              mesmerizing Kolkata sheet work—while continuously innovating to
+              meet the evolving tastes of our discerning clientele.
+            </p>
+
+            <h3>Our Promise</h3>
+            <p>
+              Quality and purity are the cornerstones of everything we create.
+              Each piece of jewellery at Vardhman Gold undergoes rigorous
+              quality checks and comes with a hallmark certification, ensuring
+              you receive nothing but the finest. Our commitment extends beyond
+              the product to encompass a complete experience—from personalized
+              consultations to after-sales service that builds lasting
+              relationships.
+            </p>
+          </div>
+
+          <!-- Values Grid -->
+          <div class="values_grid">
+            <div class="value_item">
+              <i class="fas fa-gem"></i>
+              <h4>Pure Quality</h4>
+              <p>
+                Certified 22KT pure gold with hallmark assurance on every piece
+              </p>
+            </div>
+            <div class="value_item">
+              <i class="fas fa-hands-helping"></i>
+              <h4>Expert Craftsmanship</h4>
+              <p>
+                Master artisans with generations of jewelry-making expertise
+              </p>
+            </div>
+            <div class="value_item">
+              <i class="fas fa-shield-alt"></i>
+              <h4>Trust & Transparency</h4>
+              <p>
+                Honest pricing and transparent dealings in every transaction
+              </p>
+            </div>
+            <div class="value_item">
+              <i class="fas fa-palette"></i>
+              <h4>Diverse Collection</h4>
+              <p>Traditional to contemporary designs for every occasion</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Stats Section -->
+      <div class="stats_section">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6">
+              <div class="stat_item">
+                <h3>25+</h3>
+                <p>Years of Excellence</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="stat_item">
+                <h3>10,000+</h3>
+                <p>Happy Customers</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="stat_item">
+                <h3>500+</h3>
+                <p>Unique Designs</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="stat_item">
+                <h3>100%</h3>
+                <p>Certified Gold</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Collections Overview -->
+      <section class="sec_ptb_100 clearfix">
+        <div class="container">
+          <div class="about_content_box">
+            <h2>Our Collections</h2>
+
+            <h3>Bridal Jewellery</h3>
+            <p>
+              Our bridal collection is a celebration of love and tradition. From
+              elaborate multi-layered haars adorned with intricate floral motifs
+              to elegant chokers featuring authentic die-work, each piece is
+              designed to make your special day unforgettable. We offer complete
+              bridal trousseau sets including necklaces, earrings, bangles,
+              maang tikkas, and more—all crafted to perfection.
+            </p>
+
+            <h3>Traditional Gold Jewellery</h3>
+            <p>
+              Experience the timeless beauty of traditional Indian gold
+              jewellery. Our collection features authentic Bengali Shakha
+              bangles, elegant Pola bangles with sheet work, magnificent raani
+              haars with drop detailing, and stunning kadas with peacock and
+              elephant motifs. Each piece honors the rich heritage of Indian
+              craftsmanship.
+            </p>
+
+            <h3>Contemporary & Diamond Jewellery</h3>
+            <p>
+              For those who prefer modern elegance, our contemporary collection
+              offers sleek designs that blend seamlessly with today's fashion.
+              Our diamond jewellery pieces in rose gold and white gold feature
+              exquisite craftsmanship with floral patterns and geometric
+              designs, perfect for both traditional ceremonies and modern
+              celebrations.
+            </p>
+
+            <h3>Why Choose Vardhman Gold?</h3>
+            <p>
+              When you choose Vardhman Gold, you're not just purchasing
+              jewellery—you're investing in quality, artistry, and a legacy of
+              trust. Our personalized service ensures that every piece you
+              select is perfect for your needs, whether it's for a wedding,
+              festival, or everyday elegance. Visit our showroom in Pune to
+              experience our exquisite collection firsthand, or connect with us
+              to learn more about our latest designs.
+            </p>
+            <p>
+              Let Vardhman Gold be a part of your cherished moments, adorning
+              you with pieces that you'll treasure for a lifetime.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- about_section - end -->
+    </main>
+    <!-- main body - end -->
+
+    <!-- footer_section - start -->
+    <footer
+      class="footer_section fashion_minimal_footer clearfix"
+      data-bg-color="#222222"
+    >
+      <div class="backtotop" data-background="assets/images/shape_01.png">
+        <a href="#" class="scroll">
+          <i class="far fa-arrow-up"></i>
+        </a>
+      </div>
+
+      <div class="footer_widget_area sec_ptb_100 clearfix">
+        <div class="container">
+          <div class="row justify-content-lg-between">
+            <!-- Logo & About -->
+            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+              <div class="footer_widget footer_about">
+                <div class="brand_logo mb_30">
+                  <a href="index.html">
+                    <img
+                      src="assets/home/logo/logo.jpg"
+                      alt="Vardhman Gold Logo"
+                      style="max-width: 150px"
+                    />
+                  </a>
+                </div>
+                <p class="mb-0 text-white">
+                  Vardhman Gold brings you an exclusive collection of 22KT pure
+                  gold and bridal jewellery, crafted with precision and passion
+                  to make every occasion shine with grace and luxury.
+                </p>
+              </div>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+              <div class="footer_widget footer_useful_links clearfix">
+                <h3 class="footer_widget_title text-white">Contact Us</h3>
+                <ul class="ul_li_block text-white">
+                  <li><i class="fal fa-phone-square"></i> +91 12345 67890</li>
+                  <li><i class="fal fa-envelope"></i> info@vardhmangold.com</li>
+                  <li>
+                    <i class="fal fa-map-marker-alt"></i> Vardhman Gold
+                    Showroom, Pune, Maharashtra
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+              <div class="footer_widget footer_useful_links clearfix">
+                <h3 class="footer_widget_title text-white">Quick Links</h3>
+                <ul class="ul_li_block">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About Us</a></li>
+                  <li><a href="contact.html">Contact Us</a></li>
+                  <li><a href="catalog.html">Catalog</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Newsletter -->
+            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+              <div class="footer_widget fm_footer_newsletter">
+                <h3 class="footer_widget_title text-white">Stay Updated</h3>
+                <p class="text-white">
+                  Subscribe for exclusive updates on new collections, offers,
+                  and more.
+                </p>
+                <form action="#">
+                  <div class="form_item">
+                    <input
+                      type="email"
+                      name="email"
+                      placeholder="Your email address"
+                    />
+                  </div>
+                  <button type="submit" class="submit_btn text-uppercase">
+                    Subscribe
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="container">
+        <div class="footer_bottom text-center">
+          <ul class="circle_social_links ul_li_center clearfix">
+            <li>
+              <a href="#!"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="#!"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#!"><i class="fab fa-youtube"></i></a>
+            </li>
+            <li>
+              <a href="#!"><i class="fab fa-whatsapp"></i></a>
+            </li>
+          </ul>
+          <p class="copyright_text mb-0 text-white">
+            © 2025 <strong>Vardhman Gold</strong>. All Rights Reserved.
+            <br />
+            Crafted with by
+            <a href="catalog.html" class="author_link text-gold">Vardhman Designs</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- footer_section - end -->
+
+    <!-- fraimwork - jquery include -->
+    <script src="assets/js/jquery-3.5.1.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- mobile menu - jquery include -->
+    <script src="assets/js/mCustomScrollbar.js"></script>
+
+    <!-- animation - jquery include -->
+    <script src="assets/js/parallaxie.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+
+    <!-- nice select - jquery include -->
+    <script src="assets/js/nice-select.min.js"></script>
+
+    <!-- carousel - jquery include -->
+    <script src="assets/js/slick.min.js"></script>
+
+    <!-- countdown timer - jquery include -->
+    <script src="assets/js/countdown.js"></script>
+
+    <!-- popup images & videos - jquery include -->
+    <script src="assets/js/magnific-popup.min.js"></script>
+
+    <!-- filtering & masonry layout - jquery include -->
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/masonry.pkgd.min.js"></script>
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+
+    <!-- jquery ui - jquery include -->
+    <script src="assets/js/jquery-ui.js"></script>
+
+    <!-- custom - jquery include -->
+    <script src="assets/js/custom.js"></script>
+  </body>
+</html>

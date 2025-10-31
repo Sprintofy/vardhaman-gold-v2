@@ -45,6 +45,11 @@
     <!-- custom - css include -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
     <style>
+      .item_title,
+      .item_price {
+        color: white;
+      }
+
       .whatsapp-btn-wrapper {
         text-align: center;
         margin-top: 10px;
@@ -331,11 +336,11 @@
               <nav class="main_menu clearfix">
                 <ul class="ul_li_center clearfix">
                   <li>
-                    <a href="#!">Home</a>
+                    <a href="index.html">Home</a>
                   </li>
 
-                  <li><a href="#!">About us</a></li>
-                  <li><a href="#">Contact us</a></li>
+                  <li><a href="about.html">About us</a></li>
+                  <li><a href="contact.html">Contact us</a></li>
                   <li><a href="catalog.html">Catalog</a></li>
                 </ul>
               </nav>
@@ -986,7 +991,7 @@
 			================================================== -->
       <section
         class="sports_feature_section sec_ptb_140 parallaxie clearfix"
-        data-background="assets/hero/background2.png"
+        data-background="https://images.pexels.com/photos/34444209/pexels-photo-34444209.jpeg"
       >
         <div class="container">
           <div class="sports_section_title text-center mb_100">
@@ -1191,7 +1196,9 @@
               <div class="fm_offer_item has_border">
                 <img src="assets/hero/bridalset2.png" alt="image_not_found" />
                 <div class="item_content position_bottom">
-                  <h3 class="item_title">The Royal Bridal Collection</h3>
+                  <h3 class="item_title" style="color: white">
+                    The Royal Bridal Collection
+                  </h3>
                   <span class="item_price">Crafted for Your Perfect Day</span>
                   <a class="custom_btn bg_white text-uppercase" href="#!"
                     >Explore Collection</a
@@ -1204,16 +1211,24 @@
               <div class="fm_offer_item">
                 <img src="assets/hero/bengals3.png" alt="image_not_found" />
                 <div class="item_content position_top">
-                  <!-- <h3 class="item_title">Classic Gold Bangles</h3>
-                  <span class="item_price">Now 20% off</span> -->
+                  <h3 class="item_title" style="color: white">
+                    Bridal Jewellery Collection
+                  </h3>
+                  <span class="item_price" style="color: white">
+                    All Sets Available
+                  </span>
                 </div>
               </div>
 
               <div class="fm_offer_item">
                 <img src="assets/hero/newchain.png" alt="image_not_found" />
                 <div class="item_content position_top">
-                  <!-- <h3 class="item_title">Men's Chains</h3>
-                  <span class="item_price">Bold & Sophisticated</span> -->
+                  <h3 class="item_title" style="color: white">
+                    Exclusive Bridal Designs
+                  </h3>
+                  <span class="item_price" style="color: white">
+                    Necklaces • Earrings • Bangles
+                  </span>
                 </div>
               </div>
             </div>
@@ -1814,14 +1829,16 @@
 
               <div class="col-lg-5">
                 <div class="item_content">
-                  <h3 class="item_title">Discover Our Timeless Collections</h3>
+                  <h3 class="item_title">Discover Timeless Gold Beauty</h3>
                   <p>
-                    Explore our exquisite catalog of 22KT gold jewelry. From
-                    stunning rings for men and women to elegant chains, bangles,
-                    and breathtaking necklace sets, each piece is crafted to
+                    Explore our signature 22KT gold collection — from elegant
+                    rings and classic chains to graceful bangles and statement
+                    necklace sets. Each creation is a masterpiece of purity and
                     perfection.
                   </p>
-                  <a class="custom_btn bg_gray text-uppercase" href="#!"
+                  <a
+                    class="custom_btn bg_gray text-uppercase"
+                    href="catalog.htmlb"
                     >Browse The Collections</a
                   >
                 </div>
@@ -1833,20 +1850,23 @@
             <div class="row align-items-center justify-content-lg-between">
               <div class="col-lg-6">
                 <div class="item_image">
-                  <img src="assets/hero/earring2.png" alt="image_not_found" />
+                  <img src="assets/hero/earring3.png" alt="image_not_found" />
                 </div>
               </div>
 
               <div class="col-lg-5">
                 <div class="item_content">
-                  <h3 class="item_title">Elegance in Every Detail</h3>
+                  <h3 class="item_title">Bridal Elegance Redefined</h3>
+
                   <p>
-                    Our collection features everything from traditional bridal
-                    sets to modern, dazzling earrings. Find the perfect piece
-                    that tells your story and adds a touch of pure gold elegance
-                    to any occasion.
+                    Step into your big day with unmatched grace. Our bridal
+                    jewellery blends tradition with artistry, capturing the glow
+                    of every bride and the timeless charm of pure gold
+                    craftsmanship.
                   </p>
-                  <a class="custom_btn bg_gray text-uppercase" href="#!"
+                  <a
+                    class="custom_btn bg_gray text-uppercase"
+                    href="catalog.html"
                     >Shop All Jewelry</a
                   >
                 </div>
@@ -2197,78 +2217,71 @@
       <div class="footer_widget_area sec_ptb_100 clearfix">
         <div class="container">
           <div class="row justify-content-lg-between">
+            <!-- Logo & About -->
             <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
               <div class="footer_widget footer_about">
                 <div class="brand_logo mb_30">
-                  <a href="#!">
+                  <a href="index.html">
                     <img
                       src="assets/home/logo/logo.jpg"
-                      srcset="assets/home/logo/logo.jpg 2x"
-                      alt="logo_not_found"
+                      alt="Vardhman Gold Logo"
+                      style="max-width: 150px"
                     />
                   </a>
                 </div>
-                <p class="mb-0">
-                  Etiam rhoncus sit amet adip scing sed ipsum. Lorem ipsum dolor
-                  sit amet adipiscing sem neque.
+                <p class="mb-0 text-white">
+                  Vardhman Gold brings you an exclusive collection of 22KT pure
+                  gold and bridal jewellery, crafted with precision and passion
+                  to make every occasion shine with grace and luxury.
                 </p>
               </div>
             </div>
 
-            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-              <div class="row justify-content-lg-between">
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                  <div class="footer_widget footer_useful_links clearfix">
-                    <h3 class="footer_widget_title text-white">Contact</h3>
-                    <ul class="ul_li_block">
-                      <li><i class="fal fa-phone-square"></i> 666 888 0000</li>
-                      <li><i class="fal fa-envelope"></i> Jthemes@gmail.com</li>
-                      <li>
-                        <i class="fal fa-map"></i> 66 top broklyn street new
-                        york
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-
-                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                  <div class="footer_widget footer_useful_links clearfix">
-                    <h3 class="footer_widget_title text-white">Links</h3>
-                    <ul class="ul_li_block">
-                      <li><a href="#!">About</a></li>
-                      <li><a href="#!">Contact</a></li>
-                      <li><a href="#!">Our Gallery</a></li>
-                      <li><a href="#!">Programs</a></li>
-                      <li><a href="#!">Events</a></li>
-                    </ul>
-                  </div>
-                </div>
-
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                  <div class="footer_widget footer_useful_links clearfix">
-                    <h3 class="footer_widget_title text-white">Activities</h3>
-                    <ul class="ul_li_block">
-                      <li><a href="#!">Table/Floor Toys</a></li>
-                      <li><a href="#!">Outdoor Games</a></li>
-                      <li><a href="#!">Sand Play</a></li>
-                      <li><a href="#!">Play Dough</a></li>
-                      <li><a href="#!">Building Blocks</a></li>
-                      <li><a href="#!">Water Play</a></li>
-                    </ul>
-                  </div>
-                </div>
+            <!-- Contact Info -->
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+              <div class="footer_widget footer_useful_links clearfix">
+                <h3 class="footer_widget_title text-white">Contact Us</h3>
+                <ul class="ul_li_block text-white">
+                  <li><i class="fal fa-phone-square"></i> +91 12345 67890</li>
+                  <li><i class="fal fa-envelope"></i> info@vardhmangold.com</li>
+                  <li>
+                    <i class="fal fa-map-marker-alt"></i> Vardhman Gold
+                    Showroom, Pune, Maharashtra
+                  </li>
+                </ul>
               </div>
             </div>
 
+            <!-- Quick Links -->
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+              <div class="footer_widget footer_useful_links clearfix">
+                <h3 class="footer_widget_title text-white">Quick Links</h3>
+                <ul class="ul_li_block">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About Us</a></li>
+                  <li><a href="contact.html">Contact Us</a></li>
+                  <li><a href="catalog.html">Catalog</a></li>
+
+                  <!-- <li><a href="#!">Bridal Collection</a></li>
+                  <li><a href="#!">Offers</a></li> -->
+                </ul>
+              </div>
+            </div>
+
+            <!-- Newsletter -->
             <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
               <div class="footer_widget fm_footer_newsletter">
-                <h3 class="footer_widget_title text-white">Activities</h3>
+                <h3 class="footer_widget_title text-white">Stay Updated</h3>
+                <p class="text-white">
+                  Subscribe for exclusive updates on new collections, offers,
+                  and more.
+                </p>
                 <form action="#">
                   <div class="form_item">
                     <input
                       type="email"
                       name="email"
-                      placeholder="Email address"
+                      placeholder="Your email address"
                     />
                   </div>
                   <button type="submit" class="submit_btn text-uppercase">
@@ -2281,6 +2294,7 @@
         </div>
       </div>
 
+      <!-- Footer Bottom -->
       <div class="container">
         <div class="footer_bottom text-center">
           <ul class="circle_social_links ul_li_center clearfix">
@@ -2288,19 +2302,27 @@
               <a href="#!"><i class="fab fa-facebook-f"></i></a>
             </li>
             <li>
-              <a href="#!"><i class="fab fa-twitter"></i></a>
+              <a href="#!"><i class="fab fa-instagram"></i></a>
             </li>
             <li>
               <a href="#!"><i class="fab fa-youtube"></i></a>
             </li>
+            <li>
+              <a href="#!"><i class="fab fa-whatsapp"></i></a>
+            </li>
           </ul>
-          <p class="copyright_text mb-0">
-            © Copyrights, 2019
-            <a href="#!" class="author_link text-white">Neoncart.com</a>
+          <p class="copyright_text mb-0 text-white">
+            © 2025 <strong>Vardhman Gold</strong>. All Rights Reserved.
+            <br />
+            Crafted with by
+            <a href="catalog.html" class="author_link text-gold"
+              >Vardhman Designs</a
+            >
           </p>
         </div>
       </div>
     </footer>
+
     <!-- footer_section - end
 		================================================== -->
 
