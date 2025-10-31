@@ -45,6 +45,15 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 
     <style>
+      /* Increase logo size and spacing */
+      .header_section .brand_logo img {
+        height: 85px;
+        width: auto;
+        padding: 10px 0;
+        margin-left: 10px;
+        transition: all 0.3s ease;
+      }
+
       /* WhatsApp Button (Header & Modal) */
       .whatsapp-btn {
         display: inline-flex;
@@ -344,7 +353,7 @@
                   </li>
                   <li>
                     <a
-                      href="https://wa.me/1234567890"
+                      href="https://wa.me/9371115506"
                       target="_blank"
                       class="cart_btn"
                     >
@@ -376,12 +385,12 @@
 
             <div class="col-lg-3 d-flex justify-content-end align-items-center">
               <a
-                href="https://wa.me/1234567890"
+                href="https://wa.me/9371115506"
                 target="_blank"
                 class="whatsapp-btn"
               >
                 <i class="fab fa-whatsapp"></i>
-                +91 12345 67890
+                9371115506
               </a>
             </div>
           </div>
@@ -391,7 +400,7 @@
     <!-- header_section - end -->
     <section
       class="breadcrumb_section text-white text-center text-uppercase d-flex align-items-end clearfix"
-      data-background="https://plus.unsplash.com/premium_photo-1708711288213-1726e476ce74?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzN8fG5lY2tsYWNlfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=600"
+      data-background="https://images.pexels.com/photos/34444133/pexels-photo-34444133.jpeg"
       style="
         background: url('https://media.istockphoto.com/id/959927752/photo/gold-bracelets-in-the-gold-souk-in-dubai-uae.webp?a=1&b=1&s=612x612&w=0&k=20&c=sX06qgdPqyE0lYjDkYcaWP-WeAYCLWyMnUkAR3Jbx4s=')
           center/cover no-repeat;
@@ -416,15 +425,22 @@
         </ul>
 
         <!-- Category Buttons -->
-        <div
-          class="category-buttons d-flex justify-content-center flex-wrap gap-3 mt-3"
-          id="category-buttons"
-        >
-          <button class="category-btn active" data-category="all">
-            All Products
-          </button>
-        </div>
-      </div>
+         <div
+  class="category-buttons d-flex justify-content-center flex-wrap gap-3 mt-3"
+  id="category-buttons"
+>
+  <button class="category-btn active" data-category="all">All Products</button>
+  <button class="category-btn" data-category="rings">Rings (अंगठ्या)</button>
+  <button class="category-btn" data-category="chains">Chains (चेन)</button>
+  <button class="category-btn" data-category="bracelets">Bracelets (ब्रॅसलेट)</button>
+  <button class="category-btn" data-category="bangles">Bangles (बांगड्या)</button>
+  <button class="category-btn" data-category="mangalsutra">Mangalsutra (मंगळसूत्र)</button>
+  <button class="category-btn" data-category="necklaces">Necklaces (नेकलेस)</button>
+  <button class="category-btn" data-category="rani-haar">Rani Haar (राणी हार)</button>
+</div>
+
+      
+
     </section>
 
     <!-- main body - start -->
@@ -477,11 +493,13 @@
               <div class="footer_widget footer_useful_links clearfix">
                 <h3 class="footer_widget_title text-white">Contact Us</h3>
                 <ul class="ul_li_block text-white">
-                  <li><i class="fal fa-phone-square"></i> +91 12345 67890</li>
-                  <li><i class="fal fa-envelope"></i> info@vardhmangold.com</li>
+                  <li><i class="fal fa-phone-square"></i> +91 9371115506</li>
                   <li>
-                    <i class="fal fa-map-marker-alt"></i> Vardhman Gold
-                    Showroom, Pune, Maharashtra
+                    <i class="fal fa-envelope"></i> vardhaman.imp.exp@gmail.com
+                  </li>
+                  <li>
+                    <i class="fal fa-map-marker-alt"></i> 156/4, Near Shivaji
+                    Maharaj Statue, Khadki, Pune – 411003
                   </li>
                 </ul>
               </div>
@@ -550,7 +568,9 @@
             © 2025 <strong>Vardhman Gold</strong>. All Rights Reserved.
             <br />
             Crafted with by
-            <a href="catalog.html" class="author_link text-gold">Vardhman Designs</a>
+            <a href="catalog.html" class="author_link text-gold"
+              >Vardhman Designs</a
+            >
           </p>
         </div>
       </div>
@@ -656,12 +676,12 @@
 
                 <div class="text-center mb-3">
                   <a
-                    href="https://wa.me/1234567890"
+                    href="https://wa.me/9371115506"
                     target="_blank"
                     class="whatsapp-btn"
                   >
                     <i class="fab fa-whatsapp"></i>
-                    1234567890
+                     9371115506
                   </a>
                 </div>
               </div>
@@ -698,14 +718,7 @@
             );
 
             // Create category buttons
-            data.jewelry_catalog.categories.forEach((category) => {
-              const button = document.createElement("button");
-              button.className = "category-btn";
-              button.setAttribute("data-category", category.id);
-              button.textContent = category.name;
-              categoryButtonsContainer.appendChild(button);
-            });
-
+           
             // Display all products by default
             displayProducts(allProducts);
 
