@@ -160,6 +160,66 @@
             "price": 55000,
             "image": "assets/home/Chain/chain1.png",
             "tags": ["NEW", "BESTSELLER"]
+          },
+          {
+            "id": "C002",
+            "name": "Bold Intertwined Gold Chain",
+            "category": "Gold Chains",
+            "weight": "3.40 Grams",
+            "material": "22KT Gold",
+            "price": 55000,
+            "image": "assets/home/Chain/chain2.webp",
+            "tags": ["NEW", "BESTSELLER"]
+          },
+          {
+            "id": "C003",
+            "name": "Gold Chain",
+            "category": "Gold Chains",
+            "weight": "5.40 Grams",
+            "material": "22KT Gold",
+            "price": 55000,
+            "image": "assets/home/Chain/chain3.webp",
+            "tags": ["NEW", "BESTSELLER"]
+          },
+          {
+            "id": "C004",
+            "name": "BlueStone Women's The Sariyah Gold Chain",
+            "category": "Gold Chains",
+            "weight": "2.40 Grams",
+            "material": "22KT Gold",
+            "price": 55000,
+            "image": "assets/home/Chain/chain4.webp",
+            "tags": ["NEW", "BESTSELLER"]
+          },
+          {
+            "id": "C005",
+            "name": "22 Carat Gold Chain",
+            "category": "Gold Chains",
+            "weight": "3.40 Grams",
+            "material": "22KT Gold",
+            "price": 55000,
+            "image": "assets/home/Chain/chain5.webp",
+            "tags": ["NEW", "BESTSELLER"]
+          },
+          {
+            "id": "C006",
+            "name": " Flat Design Chain",
+            "category": "Gold Chains",
+            "weight": "4.40 Grams",
+            "material": "22KT Gold",
+            "price": 55000,
+            "image": "assets/home/Chain/chain6.webp",
+            "tags": ["NEW", "BESTSELLER"]
+          },
+          {
+            "id": "C007",
+            "name": " Men's The Guler Gold Chain",
+            "category": "Gold Chains",
+            "weight": "4.40 Grams",
+            "material": "22KT Gold",
+            "price": 55000,
+            "image": "assets/home/Chain/chain7.webp",
+            "tags": ["NEW", "BESTSELLER"]
           }
         ]
       },
@@ -448,6 +508,325 @@
             "price": 40000,
             "image": "assets/home/Earrings/earring8.png",
             "tags": ["BESTSELLER"]
+          }
+        ]
+      },
+      {
+        "id": "bracelets",
+        "name": "Bracelets",
+        "products": [
+          {
+            "id": "S001",
+            "name": "Heart Linked Charm Bracelet",
+            "category": "Bracelets",
+            "weight": "2.6 grams",
+            "material": "18KT Gold",
+            "price": 26000,
+            "image": "assets/home/Bracelets/bracelets1.webp",
+            "tags": ["NEW", "BESTSELLER"]
+          },
+          {
+            "id": "S002",
+            "name": "Dolphin Charm Bracelet",
+            "category": "Bracelets",
+            "weight": "1.91 Grams",
+            "material": "18K Gold",
+            "price": 48000,
+            "image": "assets/home/Bracelets/bracelets2.webp",
+            "tags": ["NEW", "EXCLUSIVE"]
+          },
+          {
+            "id": "S003",
+            "name": "Evil Eye Bangle Bracelet",
+            "category": " Bracelets",
+            "weight": "4.97 Grams",
+            "material": "18K Gold",
+            "price": "7989",
+            "image": "assets/home/Bracelets/bracelets3.webp",
+            "tags": ["NEW"]
+          },
+          {
+            "id": "S004",
+            "name": "Twin Heart Open Bangle",
+            "category": "Bracelets",
+            "weight": "5.57 Grams",
+            "material": "18KT Gold",
+            "price": 58000,
+            "image": "assets/home/Bracelets/bracelets4.webp",
+            "tags": ["BESTSELLER", "POPULAR"]
+          },
+          {
+            "id": "S005",
+            "name": "Diamond Set Bangle Bracelet",
+            "category": "Bracelets",
+            "weight": "5.83 Grams",
+            "material": "18KT Gold",
+            "price": 38000,
+            "image": "assets/home/Bracelets/bracelets5.webp",
+            "tags": ["BESTSELLER"]
+          },
+          {
+            "id": "S006",
+            "name": "Luxury Tennis Bracelet",
+            "category": "Bracelets",
+            "weight": "8.01 Grams",
+            "material": "22KT Gold",
+            "price": 42000,
+            "image": "assets/home/Bracelets/bracelets6.webp",
+            "tags": ["POPULAR"]
+          },
+          {
+            "id": "S007",
+            "name": "Round Diamond Tennis Bracelet",
+            "category": "Bracelets",
+            "weight": "2.70 Grams",
+            "material": "18KT Gold",
+            "price": 58000,
+            "image": "assets/home/Bracelets/bracelets7.webp",
+            "tags": ["POPULAR"]
+          },
+
+          {
+            "id": "S008",
+            "name": "Sparkling Symmetry Bracelet",
+            "category": "Bracelets",
+            "weight": "5.37 Grams",
+            "material": "22KT Gold",
+            "price": 40000,
+            "image": "assets/home/Bracelets/bracelets8.webp",
+            "tags": ["BESTSELLER"]
+          },
+          {
+            "id": "S009",
+            "name": "Minimalist Paper Clip Bracelet",
+            "category": "Bracelets",
+            "weight": "2.70 Grams",
+            "material": "18KT Gold",
+            "price": 40000,
+            "image": "assets/home/Bracelets/bracelets9.webp",
+            "tags": ["BESTSELLER"]
+          },
+          {
+            "id": "S0010",
+            "name": "18k Gold Vermeil Chain Bracelet",
+            "category": "Bracelets",
+            "weight": "2.60 Grams",
+            "material": "18KT Gold",
+            "price": 40000,
+            "image": "assets/home/Bracelets/bracelets10.webp",
+            "tags": ["BESTSELLER"]
+          }
+        ]
+      },
+      {
+        "id": "mangalsutra",
+        "name": "Mangalsutra",
+        "products": [
+          {
+            "id": "M001",
+            "name": "Fancy Diamond Setting Mangalsutra",
+            "category": "Mangalsutra",
+            "weight": "2.57 grams",
+            "material": "18KT Gold",
+            "price": 26000,
+            "image": "assets/home/Mangalsutra/managalsutra1.webp",
+            "tags": ["NEW", "BESTSELLER"]
+          },
+          {
+            "id": "M002",
+            "name": "Celestial Curve Mangalsutra",
+            "category": "Mangalsutra",
+            "weight": "2.23 grams",
+            "material": "18KT Gold",
+            "price": 26000,
+            "image": "assets/home/Mangalsutra/managalsutra2.webp",
+            "tags": ["NEW", "BESTSELLER"]
+          },
+          {
+            "id": "M003",
+            "name": "Floral-Inspired Grace Mangalsutra",
+            "category": "Mangalsutra",
+            "weight": "4.50 grams",
+            "material": "18KT Gold",
+            "price": 26000,
+            "image": "assets/home/Mangalsutra/managalsutra3.webp",
+            "tags": ["NEW", "BESTSELLER"]
+          },
+          {
+            "id": "M004",
+            "name": "Dazzling Heritage Mangalsutra",
+            "category": "Mangalsutra",
+            "weight": "2.87 grams",
+            "material": "18KT Gold",
+            "price": 26000,
+            "image": "assets/home/Mangalsutra/managalsutra4.webp",
+            "tags": ["NEW", "BESTSELLER"]
+          },
+          {
+            "id": "M005",
+            "name": "Twin Flame Mangalsutra",
+            "category": "Mangalsutra",
+            "weight": "2.50 grams",
+            "material": "18KT Gold",
+            "price": 26000,
+            "image": "assets/home/Mangalsutra/managalsutra5.webp",
+            "tags": ["NEW", "BESTSELLER"]
+          },
+          {
+            "id": "M006",
+            "name": "Dancing Swirl Mangalsutra",
+            "category": "Mangalsutra",
+            "weight": "3.57 grams",
+            "material": "18KT Gold",
+            "price": 26000,
+            "image": "assets/home/Mangalsutra/managalsutra6.webp",
+            "tags": ["NEW", "BESTSELLER"]
+          },
+          {
+            "id": "M007",
+            "name": "Link of Love Mangalsutra",
+            "category": "Mangalsutra",
+            "weight": "2.70 grams",
+            "material": "18KT Gold",
+            "price": 26000,
+            "image": "assets/home/Mangalsutra/managalsutra7.webp",
+            "tags": ["NEW", "BESTSELLER"]
+          },
+          {
+            "id": "M008",
+            "name": "Twilight Petals Diamond Mangalsutra",
+            "category": "Mangalsutra",
+            "weight": "4.20 grams",
+            "material": "18KT Gold",
+            "price": 26000,
+            "image": "assets/home/Mangalsutra/managalsutra8.webp",
+            "tags": ["NEW", "BESTSELLER"]
+          },
+          {
+            "id": "M009",
+            "name": "Interlinked Mangalsutra",
+            "category": "Mangalsutra",
+            "weight": "4.30 grams",
+            "material": "18KT Gold",
+            "price": 26000,
+            "image": "assets/home/Mangalsutra/managalsutra9.webp",
+            "tags": ["NEW", "BESTSELLER"]
+          },
+          {
+            "id": "M0010",
+            "name": "Regal Vow Mangalsutra",
+            "category": "Mangalsutra",
+            "weight": "3.30 grams",
+            "material": "18KT Gold",
+            "price": 26000,
+            "image": "assets/home/Mangalsutra/managalsutra10.webp",
+            "tags": ["NEW", "BESTSELLER"]
+          }
+        ]
+      },
+      {
+        "id": "ranihaar",
+        "name": "Ranihaar",
+        "products": [
+          {
+            "id": "H001",
+            "name": "Fancy Diamond Setting MangalsutraGolden Rani Haar Set",
+            "category": "Ranihaar",
+            "weight": "",
+            "material": "18KT Gold",
+            "price": 26000,
+            "image": "assets/home/Ranihaar/ranihaar1.webp",
+            "tags": ["NEW", "BESTSELLER"]
+          },
+          {
+            "id": "H002",
+            "name": "Gota Patti Rani Haar Set",
+            "category": "Ranihaar",
+            "weight": "",
+            "material": "18KT Gold",
+            "price": 26000,
+            "image": "assets/home/Ranihaar/ranihaar2.webp",
+            "tags": ["NEW", "BESTSELLER"]
+          },
+          {
+            "id": "H003",
+            "name": "Peora Traditional Gold Plated Maharani Haar Necklace",
+            "category": "Ranihaar",
+            "weight": "",
+            "material": "18KT Gold",
+            "price": 26000,
+            "image": "assets/home/Ranihaar/ranihaar3.jpg",
+            "tags": ["NEW", "BESTSELLER"]
+          },
+          {
+            "id": "H004",
+            "name": " Bridal Wear Four Line Rani Haar ",
+            "category": "Ranihaar",
+            "weight": "",
+            "material": "18KT Gold",
+            "price": 26000,
+            "image": "assets/home/Ranihaar/ranihaar4.jpg",
+            "tags": ["NEW", "BESTSELLER"]
+          },
+          {
+            "id": "H005",
+            "name": "RANI HAAR - FLORAL DESIGN",
+            "category": "Ranihaar",
+            "weight": "",
+            "material": "18KT Gold",
+            "price": 26000,
+            "image": "assets/home/Ranihaar/ranihaar5.webp",
+            "tags": ["NEW", "BESTSELLER"]
+          },
+          {
+            "id": "H006",
+            "name": "22K Gold Necklace Rani Haar",
+            "category": "Ranihaar",
+            "weight": "",
+            "material": "18KT Gold",
+            "price": 26000,
+            "image": "assets/home/Ranihaar/ranihaar6.webp",
+            "tags": ["NEW", "BESTSELLER"]
+          },
+          {
+            "id": "H007",
+            "name": "MAGNIFICENT RANI HAAR",
+            "category": "Ranihaar",
+            "weight": "",
+            "material": "18KT Gold",
+            "price": 26000,
+            "image": "assets/home/Ranihaar/ranihaar7.webp",
+            "tags": ["NEW", "BESTSELLER"]
+          },
+          {
+            "id": "H008",
+            "name": "LUMINOUS GOLD PLATED FLORAL RANI-HAAR",
+            "category": "Ranihaar",
+            "weight": "",
+            "material": "18KT Gold",
+            "price": 26000,
+            "image": "assets/home/Ranihaar/ranihaar8.webp",
+            "tags": ["NEW", "BESTSELLER"]
+          },
+          {
+            "id": "H009",
+            "name": "22Kt Gold Traditional Design Rani Haar ",
+            "category": "Ranihaar",
+            "weight": "",
+            "material": "18KT Gold",
+            "price": 26000,
+            "image": "assets/home/Ranihaar/ranihaar9.jpg",
+            "tags": ["NEW", "BESTSELLER"]
+          },
+          {
+            "id": "H0010",
+            "name": "Festive Wear Necklace 22K Gold Rani Haar Set",
+            "category": "Ranihaar",
+            "weight": "",
+            "material": "18KT Gold",
+            "price": 26000,
+            "image": "assets/home/Ranihaar/ranihaar10.webp",
+            "tags": ["NEW", "BESTSELLER"]
           }
         ]
       }
