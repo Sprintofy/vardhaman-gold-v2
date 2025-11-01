@@ -45,6 +45,35 @@
     <!-- custom - css include -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
     <style>
+      
+    .whatsapp_float {
+      position: fixed;
+      width: 60px;
+      height: 60px;
+      bottom: 25px;
+      right: 25px;
+      background-color: #25d366;
+      color: #fff;
+      border-radius: 50%;
+      text-align: center;
+      font-size: 32px;
+      z-index: 1000;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+      transition: all 0.3s ease;
+    }
+
+    .whatsapp_float i {
+      line-height: 60px;
+    }
+
+    .whatsapp_float:hover {
+      background-color: #1ebe5d;
+      transform: scale(1.1);
+    }
+    </style>
+
+    
+    <style>
       /* Increase logo size and spacing */
       .header_section .brand_logo img {
         height: 85px;
@@ -110,6 +139,216 @@
         font-size: 13px;
         padding: 8px 20px;
         gap: 6px;
+      }
+    </style>
+    <style>
+      /*catalog section*/
+       /* Product Card Styles */
+
+      .product-card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        cursor: pointer;
+        height: 100%;
+      }
+
+      .product-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+      }
+
+      .product-card img {
+        height: 300px;
+        object-fit: cover;
+        cursor: pointer;
+      }
+
+      .product-tags {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        z-index: 1;
+      }
+
+      .product-tags .badge {
+        display: block;
+        margin-bottom: 5px;
+        font-size: 10px;
+        padding: 5px 10px;
+      }
+
+      .card-img-wrapper {
+        position: relative;
+        overflow: hidden;
+      }
+
+      .filter-section {
+        background: #f8f9fa;
+        padding: 30px 20px;
+        border-radius: 8px;
+        margin-bottom: 30px;
+      }
+
+      .category-buttons {
+        display: flex;
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .category-btn {
+        padding: 12px 30px;
+        border: 2px solid #ddd;
+        background: white;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 14px;
+      }
+
+      .category-btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      }
+
+      .category-btn.active {
+        background: #007bff;
+        color: white;
+        border-color: #007bff;
+      }
+
+      .modal-dialog {
+        max-width: 900px;
+      }
+
+      .quickview-image {
+        max-height: 500px;
+        object-fit: contain;
+      }
+
+      .rating_star {
+        color: #ffc107;
+      }
+
+      .modal .close {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        z-index: 1050;
+        opacity: 1;
+        font-size: 2rem;
+        font-weight: 700;
+        color: #000;
+        text-shadow: none;
+        background: white;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        border: 2px solid #ddd;
+        transition: all 0.3s ease;
+      }
+
+      .modal .close:hover {
+        background: #f8f9fa;
+        border-color: #007bff;
+        color: #007bff;
+        transform: rotate(90deg);
+      }
+
+      .whatsapp-btn {
+        background: #25d366;
+        color: white;
+        padding: 12px 30px;
+        border-radius: 50px;
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        font-weight: 600;
+        transition: all 0.3s ease;
+      }
+
+      .whatsapp-btn:hover {
+        background: #128c7e;
+        color: white;
+        text-decoration: none;
+        transform: translateY(-2px);
+        box-shadow: 0 5px 15px rgba(37, 211, 102, 0.3);
+      }
+
+      .whatsapp-btn i {
+        font-size: 24px;
+      }
+
+      @media (max-width: 768px) {
+        .category-buttons {
+          gap: 10px;
+        }
+
+        .category-btn {
+          padding: 10px 20px;
+          font-size: 12px;
+        }
+      }
+        .breadcrumb_section {
+        position: relative;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        overflow: hidden;
+        min-height: 500px;
+        display: flex;
+        align-items: center; /* Center vertically */
+        justify-content: center; /* Center horizontally */
+        text-align: center;
+      }
+
+      .breadcrumb_section .page_title {
+        font-size: 48px;
+        font-weight: 700;
+        letter-spacing: 1px;
+      }
+
+      .breadcrumb_nav li {
+        color: #fff;
+        margin: 0 5px;
+        font-weight: 500;
+      }
+
+      .breadcrumb_nav li a {
+        color: #f5c518;
+        text-decoration: none;
+      }
+
+      .category-buttons {
+        z-index: 2;
+        position: relative;
+      }
+
+      .category-btn {
+        background: #f5c518;
+        color: #000;
+        font-weight: 600;
+        border: none;
+        border-radius: 30px;
+        padding: 10px 25px;
+        transition: all 0.3s ease;
+      }
+
+      .category-btn:hover,
+      .category-btn.active {
+        background: #fff;
+        color: #000;
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+      }
+
+      .overlay {
+        z-index: 1;
       }
     </style>
 
@@ -218,7 +457,7 @@
       .fashion_minimal_product .item_image .image_wrap {
         display: block;
         width: 100%;
-        height: 300px; /* Fixed height for all product images */
+        height: 300px; 
         position: relative;
       }
       .fashion_minimal_product .item_image .image_wrap img {
@@ -234,11 +473,11 @@
       .fashion_minimal_product .item_title {
         min-height: 45px;
         margin-bottom: 8px;
-        text-align: center; /* centers text */
+        text-align: center;
       }
 
       .fashion_minimal_product .item_title a {
-        font-size: 16px; /* increased from 14px */
+        font-size: 16px;
         font-weight: 600;
         line-height: 1.4;
         color: #222;
@@ -350,12 +589,12 @@
 
                   <li><a href="about.html">About us</a></li>
                   <li><a href="contact.html">Contact us</a></li>
-                  <li><a href="catalog.html">Catalog</a></li>
+                  <!-- <li><a href="catalog.html">Catalog</a></li> -->
                 </ul>
               </nav>
             </div>
 
-            <div class="whatsapp-btn-wrapper text-center">
+            <!-- <div class="whatsapp-btn-wrapper text-center">
               <a
                 href="https://wa.me/9371115506"
                 target="_blank"
@@ -364,7 +603,7 @@
                 <i class="fab fa-whatsapp"></i>
                 9371115506
               </a>
-            </div>
+            </div> -->
 
             <!-- <div class="col-lg-3">
 
@@ -1009,21 +1248,35 @@
       >
         <div class="container">
           <div class="row justify-content-center">
+            <a
+            class="brand_link"
+            href="#!"
+            style="display: inline-block; padding: 10px 20px; margin-left: 20px;"
+          >
+            <img
+              src="assets/home/logo/navlogo.png"
+              srcset="assets/home/logo/navlogo.png"
+              alt="Vardhaman Gold Logo"
+              style="height: 60px; width: auto;"
+            />
+          </a>
+
+
             <div class="col-lg-10">
-              <h4
+              <h1
                 class="text-uppercase mb-3 wow fadeInUp"
                 data-wow-delay="1.2s"
                 style="color: #7a0000; font-weight: 600"
               >
                 Welcome to Vardhaman Golds
-              </h4>
-              <h1
+              </h1>
+              <h4
                 class="text-uppercase mb-3 wow fadeInDown"
                 data-wow-delay="0.2s"
                 style="color: #7a0000; font-weight: 700; letter-spacing: 1px"
               >
                 Trusted Gold Purity Testing & Hallmark Jewellery
-              </h1>
+              </h4>
 
               <!-- <h3
                 class="mb-4 wow fadeInUp"
@@ -1070,7 +1323,7 @@
                 more valuable than gold itself.
               </p>
 
-              <div class="mt-4 wow fadeInUp" data-wow-delay="1.6s">
+              <!-- <div class="mt-4 wow fadeInUp" data-wow-delay="1.6s">
                 <a
                   href="contact.html"
                   class="btn"
@@ -1085,7 +1338,7 @@
                 >
                   Visit Us Today
                 </a>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
@@ -1510,6 +1763,137 @@
       </section>
       <!-- fashion_policy - end
 			================================================== -->
+
+       <section
+      class="breadcrumb_section text-white text-center text-uppercase d-flex align-items-end clearfix"
+      data-background="https://images.pexels.com/photos/34444133/pexels-photo-34444133.jpeg"
+      style="
+        background: url('https://media.istockphoto.com/id/959927752/photo/gold-bracelets-in-the-gold-souk-in-dubai-uae.webp?a=1&b=1&s=612x612&w=0&k=20&c=sX06qgdPqyE0lYjDkYcaWP-WeAYCLWyMnUkAR3Jbx4s=')
+          center/cover no-repeat;
+        position: relative;
+        padding: 120px 0 80px;
+      "
+    >
+      <div
+        class="overlay"
+        style="
+          background-color: rgba(0, 0, 0, 0.6);
+          position: absolute;
+          inset: 0;
+        "
+      ></div>
+
+      <div class="container position-relative text-center z-2">
+        <h1 class="page_title text-white mb-2">Our Catalog</h1>
+        <!-- <ul class="breadcrumb_nav ul_li_center clearfix mb-4">
+          <li><a href="index.html">Home</a></li>
+          <li>Products</li>
+        </ul> -->
+
+        <!-- Category Buttons -->
+         <div
+  class="category-buttons d-flex justify-content-center flex-wrap gap-3 mt-3"
+  id="category-buttons"
+>
+  <button class="category-btn active" data-category="all">All Products</button>
+  <button class="category-btn" data-category="rings">Rings (अंगठ्या)</button>
+  <button class="category-btn" data-category="chains">Chains (चेन)</button>
+  <button class="category-btn" data-category="bracelets">Bracelets (ब्रॅसलेट)</button>
+  <button class="category-btn" data-category="bangles">Bangles (बांगड्या)</button>
+  <button class="category-btn" data-category="mangalsutra">Mangalsutra (मंगळसूत्र)</button>
+  <button class="category-btn" data-category="necklaces">Necklaces (नेकलेस)</button>
+  <button class="category-btn" data-category="rani-haar">Rani Haar (राणी हार)</button>
+</div>
+
+      
+
+    </section>
+
+    <!-- main body - start -->
+    <main>
+      <div class="container mt-5">
+        <div id="product-list" class="row justify-content-center">
+          <!-- Products will be loaded dynamically here -->
+        </div>
+      </div>
+    </main>
+    <!-- main body - end -->
+     <!-- product quick view - start -->
+    <div
+      class="quickview_modal modal fade"
+      id="quickview_modal"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content clearfix">
+          <button
+            type="button"
+            class="close"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="item_image p-3">
+                <img
+                  id="modal-product-image"
+                  src=""
+                  alt="image_not_found"
+                  class="img-fluid quickview-image"
+                />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="item_content p-4">
+                <h2 class="item_title mb_15" id="modal-product-name"></h2>
+                <div class="rating_star mb_30 clearfix">
+                  <ul class="float-left ul_li mr-2">
+                    <li class="active"><i class="las la-star"></i></li>
+                    <li class="active"><i class="las la-star"></i></li>
+                    <li class="active"><i class="las la-star"></i></li>
+                    <li class="active"><i class="las la-star"></i></li>
+                    <li><i class="las la-star"></i></li>
+                  </ul>
+                  <!-- <span class="review_text">(12 Reviews)</span> -->
+                </div>
+                <div class="product-info mb_30">
+                  <p>
+                    <strong>Category:</strong>
+                    <span id="modal-product-category"></span>
+                  </p>
+                  <p>
+                    <strong>Material:</strong>
+                    <span id="modal-product-material"></span>
+                  </p>
+                  <p>
+                    <strong>Weight:</strong>
+                    <span id="modal-product-weight"></span>
+                  </p>
+                  <div id="modal-product-tags" class="mt-2"></div>
+                </div>
+
+                <div class="text-center mb-3">
+                  <a
+                    href="https://wa.me/9371115506"
+                    target="_blank"
+                    class="whatsapp-btn"
+                  >
+                    <i class="fab fa-whatsapp"></i>
+                     9371115506
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- product quick view - end -->
+
 
       <!-- offer_section - start
 			================================================== -->
@@ -2403,7 +2787,7 @@
 
       <!-- brand_section - start
 			================================================== -->
-      <div class="brand_section sec_ptb_100 clearfix">
+      <!-- <div class="brand_section sec_ptb_100 clearfix">
         <div class="container-fluid prl_100">
           <div class="row justify-content-center">
             <div class="col-lg-10">
@@ -2519,9 +2903,20 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
       <!-- brand_section - end
 			================================================== -->
+
+      <!-- WhatsApp Floating Icon -->
+<a
+  href="https://wa.me/919371115506" 
+  class="whatsapp_float"
+  target="_blank"
+  aria-label="Chat on WhatsApp"
+>
+  <i class="fab fa-whatsapp"></i>
+</a>
+
     </main>
     <!-- main body - end
 		================================================== -->
@@ -2530,125 +2925,100 @@
 		================================================== -->
     <footer
       class="footer_section fashion_minimal_footer clearfix"
-      data-bg-color="#222222"
+      style="background-color: #222222; position: relative; overflow: hidden;"
     >
+      <!-- Back to Top -->
       <div class="backtotop" data-background="assets/images/shape_01.png">
-        <a href="#" class="scroll">
-          <i class="far fa-arrow-up"></i>
+        <a href="#" class="scroll d-flex align-items-center justify-content-center">
+          <i class="far fa-arrow-up text-gold fs-5"></i>
         </a>
       </div>
 
+      <!-- Footer Main -->
       <div class="footer_widget_area sec_ptb_100 clearfix">
         <div class="container">
-          <div class="row justify-content-lg-between">
+          <div class="row justify-content-lg-between g-4">
+
             <!-- Logo & About -->
-            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+            <div class="col-lg-3 col-md-6">
               <div class="footer_widget footer_about">
-                <div class="brand_logo mb_30">
+                <div class="brand_logo mb-4">
                   <a href="index.html">
                     <img
                       src="assets/home/logo/logo.jpg"
                       alt="Vardhman Gold Logo"
-                      style="max-width: 150px"
+                      style="max-width: 160px; border-radius: 10px;"
                     />
                   </a>
                 </div>
-                <p class="mb-0 text-white">
-                  Vardhman Gold brings you an exclusive collection of 22KT pure
-                  gold and bridal jewellery, crafted with precision and passion
-                  to make every occasion shine with grace and luxury.
+                <p class="text-white-50 mb-0">
+                  Discover timeless elegance with 
+                  <span class="text-gold fw-semibold">Vardhman Gold</span> — 
+                  exquisite 22KT jewellery crafted to illuminate your every moment 
+                  with brilliance and grace.
                 </p>
               </div>
             </div>
 
             <!-- Contact Info -->
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-              <div class="footer_widget footer_useful_links clearfix">
-                <h3 class="footer_widget_title text-white">Contact Us</h3>
-                <ul class="ul_li_block text-white">
-                  <li><i class="fal fa-phone-square"></i> +91 9371115506</li>
+            <div class="col-lg-3 col-md-6">
+              <div class="footer_widget">
+                <h3 class="footer_widget_title text-white mb-3 position-relative">
+                  Contact Us
+                  <span style="width: 40px; height: 2px; background: #d4af37; display: block; margin-top: 6px;"></span>
+                </h3>
+                <ul class="ul_li_block text-white-50">
+                  <li><i class="fal fa-phone-square text-gold me-2"></i> +91 9371115506</li>
+                  <li><i class="fal fa-envelope text-gold me-2"></i> vardhaman.imp.exp@gmail.com</li>
                   <li>
-                    <i class="fal fa-envelope"></i> vardhaman.imp.exp@gmail.com
-                  </li>
-                  <li>
-                    <i class="fal fa-map-marker-alt"></i> 156/4, Near Shivaji
-                    Maharaj Statue, Khadki, Pune – 411003
+                    <i class="fal fa-map-marker-alt text-gold me-2"></i> 156/4, Near Shivaji Maharaj Statue, Khadki, Pune – 411003
                   </li>
                 </ul>
               </div>
             </div>
 
             <!-- Quick Links -->
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-              <div class="footer_widget footer_useful_links clearfix">
-                <h3 class="footer_widget_title text-white">Quick Links</h3>
+            <div class="col-lg-3 col-md-6">
+              <div class="footer_widget">
+                <h3 class="footer_widget_title text-white mb-3 position-relative">
+                  Quick Links
+                  <span style="width: 40px; height: 2px; background: #d4af37; display: block; margin-top: 6px;"></span>
+                </h3>
                 <ul class="ul_li_block">
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="about.html">About Us</a></li>
-                  <li><a href="contact.html">Contact Us</a></li>
-                  <li><a href="catalog.html">Catalog</a></li>
-
-                  <!-- <li><a href="#!">Bridal Collection</a></li>
-                  <li><a href="#!">Offers</a></li> -->
+                  <li><a href="index.html" class="text-white-50 text-decoration-none hover-text-gold">Home</a></li>
+                  <li><a href="about.html" class="text-white-50 text-decoration-none hover-text-gold">About Us</a></li>
+                  <li><a href="contact.html" class="text-white-50 text-decoration-none hover-text-gold">Contact Us</a></li>
                 </ul>
               </div>
             </div>
 
-            <!-- Newsletter -->
-            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-              <div class="footer_widget fm_footer_newsletter">
-                <h3 class="footer_widget_title text-white">Stay Updated</h3>
-                <p class="text-white">
-                  Subscribe for exclusive updates on new collections, offers,
-                  and more.
-                </p>
-                <form action="#">
-                  <div class="form_item">
-                    <input
-                      type="email"
-                      name="email"
-                      placeholder="Your email address"
-                    />
-                  </div>
-                  <button type="submit" class="submit_btn text-uppercase">
-                    Subscribe
-                  </button>
-                </form>
-              </div>
-            </div>
           </div>
         </div>
       </div>
 
       <!-- Footer Bottom -->
-      <div class="container">
-        <div class="footer_bottom text-center">
-          <ul class="circle_social_links ul_li_center clearfix">
-            <li>
-              <a href="#!"><i class="fab fa-facebook-f"></i></a>
-            </li>
-            <li>
-              <a href="#!"><i class="fab fa-instagram"></i></a>
-            </li>
-            <li>
-              <a href="#!"><i class="fab fa-youtube"></i></a>
-            </li>
-            <li>
-              <a href="#!"><i class="fab fa-whatsapp"></i></a>
-            </li>
-          </ul>
-          <p class="copyright_text mb-0 text-white">
-            © 2025 <strong>Vardhman Gold</strong>. All Rights Reserved.
-            <br />
-            Crafted with by
-            <a href="catalog.html" class="author_link text-gold"
-              >Vardhman Designs</a
-            >
+      <div style="border-top: 1px solid rgba(255,255,255,0.1);">
+        <div class="container py-3 text-center">
+          <p class="copyright_text mb-0 text-white-50">
+            © 2025 <strong class="text-gold">Vardhman Gold</strong> — Where Timeless Beauty Shines.<br />
+            Crafted with <span class="text-gold"></span> by 
+            <a href="#" class="author_link text-gold fw-semibold text-decoration-none hover-text-light">
+              Sprintofy
+            </a>
           </p>
         </div>
       </div>
-    </footer>
 
+      <!-- Optional Hover Effects -->
+      <style>
+        .text-gold { color: #d4af37 !important; }
+        .hover-text-gold:hover { color: #d4af37 !important; transition: 0.3s ease; }
+        .hover-text-light:hover { color: #ffffff !important; transition: 0.3s ease; }
+        .footer_widget_title { font-size: 1.2rem; font-weight: 600; letter-spacing: 0.5px; }
+        .footer_widget ul li { margin-bottom: 8px; }
+        .footer_widget ul li i { width: 20px; }
+      </style>
+    </footer>
     <!-- footer_section - end
 		================================================== -->
 
@@ -2798,5 +3168,172 @@
     <!-- product quick view - end -->
     <!-- shop_section - end
 			================================================== -->
+      <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const productList = document.getElementById("product-list");
+        const categoryButtonsContainer =
+          document.getElementById("category-buttons");
+
+        let catalogData = null;
+        let allProducts = [];
+        let selectedMainCategory = "all";
+
+        // Fetch product data from JSON file
+        fetch("product.json")
+          .then((response) => response.json())
+          .then((data) => {
+            catalogData = data;
+
+            // Flatten all products
+            allProducts = data.jewelry_catalog.categories.flatMap((category) =>
+              category.products.map((product) => ({
+                ...product,
+                mainCategory: category.name,
+                mainCategoryId: category.id,
+              }))
+            );
+
+            // Create category buttons
+           
+            // Display all products by default
+            displayProducts(allProducts);
+
+            // Add click event listeners to category buttons
+            setupCategoryButtons();
+          })
+          .catch((error) =>
+            console.error("Error fetching product data:", error)
+          );
+
+        // Setup category button click handlers
+        function setupCategoryButtons() {
+          const categoryButtons = document.querySelectorAll(".category-btn");
+
+          categoryButtons.forEach((button) => {
+            button.addEventListener("click", () => {
+              // Remove active class from all buttons
+              categoryButtons.forEach((btn) => btn.classList.remove("active"));
+
+              // Add active class to clicked button
+              button.classList.add("active");
+
+              const category = button.getAttribute("data-category");
+              selectedMainCategory = category;
+
+              if (category === "all") {
+                displayProducts(allProducts);
+              } else {
+                // Filter products by main category
+                const filteredProducts = allProducts.filter(
+                  (product) => product.mainCategoryId === category
+                );
+                displayProducts(filteredProducts);
+              }
+            });
+          });
+        }
+
+        // Function to display products
+        function displayProducts(products) {
+          productList.innerHTML = "";
+          if (products.length === 0) {
+            productList.innerHTML =
+              '<div class="col-12 text-center"><h4>No products found</h4></div>';
+            return;
+          }
+
+          products.forEach((product) => {
+            const tagsHTML = product.tags
+              ? product.tags
+                  .map((tag) => {
+                    const badgeClass =
+                      tag === "NEW"
+                        ? "badge-success"
+                        : tag === "BESTSELLER"
+                        ? "badge-danger"
+                        : tag === "PREMIUM"
+                        ? "badge-warning"
+                        : tag === "EXCLUSIVE"
+                        ? "badge-info"
+                        : "badge-primary";
+                    return `<span class="badge ${badgeClass}">${tag}</span>`;
+                  })
+                  .join("")
+              : "";
+
+            const productCard = `
+              <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card product-card">
+                  <div class="card-img-wrapper">
+                    <div class="product-tags">
+                      ${tagsHTML}
+                    </div>
+                    <img src="${product.image}" class="card-img-top" alt="${
+              product.name
+            }" 
+                         onclick='openQuickView(${JSON.stringify(
+                           product
+                         ).replace(/'/g, "&apos;")})'>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">${product.name}</h5>
+                    <p class="card-text mb-1"><strong>Category:</strong> ${
+                      product.category
+                    }</p>
+                    <p class="card-text mb-2"><strong>Weight:</strong> ${
+                      product.weight
+                    }</p>
+                    <button class="btn btn-primary btn-sm" onclick='openQuickView(${JSON.stringify(
+                      product
+                    ).replace(/'/g, "&apos;")})'>
+                      Quick View
+                    </button>
+                  </div>
+                </div>
+              </div>
+            `;
+            productList.innerHTML += productCard;
+          });
+        }
+
+        // Make openQuickView function global
+        window.openQuickView = function (product) {
+          document.getElementById("modal-product-name").textContent =
+            product.name;
+          document.getElementById("modal-product-category").textContent =
+            product.category;
+          document.getElementById("modal-product-material").textContent =
+            product.material;
+          document.getElementById("modal-product-weight").textContent =
+            product.weight;
+          document.getElementById("modal-product-image").src = product.image;
+
+          // Display tags
+          const tagsContainer = document.getElementById("modal-product-tags");
+          if (product.tags && product.tags.length > 0) {
+            const tagsHTML = product.tags
+              .map((tag) => {
+                const badgeClass =
+                  tag === "NEW"
+                    ? "badge-success"
+                    : tag === "BESTSELLER"
+                    ? "badge-danger"
+                    : tag === "PREMIUM"
+                    ? "badge-warning"
+                    : tag === "EXCLUSIVE"
+                    ? "badge-info"
+                    : "badge-primary";
+                return `<span class="badge ${badgeClass} mr-1">${tag}</span>`;
+              })
+              .join("");
+            tagsContainer.innerHTML = tagsHTML;
+          } else {
+            tagsContainer.innerHTML = "";
+          }
+
+          $("#quickview_modal").modal("show");
+        };
+      });
+    </script>
   </body>
 </html>

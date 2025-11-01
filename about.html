@@ -44,6 +44,33 @@
     <!-- custom - css include -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
     <style>
+      .whatsapp_float {
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        bottom: 25px;
+        right: 25px;
+        background-color: #25d366;
+        color: #fff;
+        border-radius: 50%;
+        text-align: center;
+        font-size: 32px;
+        z-index: 1000;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+        transition: all 0.3s ease;
+      }
+
+      .whatsapp_float i {
+        line-height: 60px;
+      }
+
+      .whatsapp_float:hover {
+        background-color: #1ebe5d;
+        transform: scale(1.1);
+      }
+    </style>
+
+    <style>
       /* Increase logo size and spacing */
       .header_section .brand_logo img {
         height: 85px;
@@ -209,11 +236,11 @@
   <body>
     <!-- backtotop - start -->
     <div id="thetop"></div>
-    <div class="backtotop bg_default_red">
+    <!-- <div class="backtotop bg_default_red">
       <a href="#" class="scroll">
         <i class="far fa-arrow-up"></i>
       </a>
-    </div>
+    </div> -->
     <!-- backtotop - end -->
 
     <!-- header_section - start -->
@@ -268,14 +295,14 @@
                     <a href="index.html">Home</a>
                   </li>
 
-                  <li><a href="#!">About us</a></li>
+                  <li><a href="about.html">About us</a></li>
                   <li><a href="contact.html">Contact us</a></li>
-                  <li><a href="catalog.html">Catalog</a></li>
+                  <!-- <li><a href="catalog.html">Catalog</a></li> -->
                 </ul>
               </nav>
             </div>
 
-            <div class="whatsapp-btn-wrapper text-center">
+            <!-- <div class="whatsapp-btn-wrapper text-center">
               <a
                 href="https://wa.me/9371115506"
                 target="_blank"
@@ -284,10 +311,90 @@
                 <i class="fab fa-whatsapp"></i>
                 9371115506
               </a>
-            </div>
+            </div> -->
+
+            <!-- <div class="col-lg-3">
+
+              <ul class="action_btns_group ul_li_right clearfix">
+                <li>
+                  <a
+                    href="https://wa.me/919876543210"
+                    target="_blank"
+                    class="cart_btn"
+                  >
+                    <i class="fab fa-whatsapp"></i>
+                  </a>
+                </li>
+
+                <li>
+                  <button
+                    type="button"
+                    class="user_btn"
+                    data-toggle="collapse"
+                    data-target="#use_deropdown"
+                    aria-expanded="false"
+                    aria-controls="use_deropdown"
+                  >
+                    <i class="fal fa-user"></i>
+                  </button>
+                  <div id="use_deropdown" class="collapse_dropdown collapse">
+                    <div class="dropdown_content">
+                      <div class="profile_info clearfix">
+                        <div class="user_thumbnail">
+                          <img
+                            src="assets/images/meta/img_01.png"
+                            alt="thumbnail_not_found"
+                          />
+                        </div>
+                        <div class="user_content">
+                          <h4 class="user_name">Jone Doe</h4>
+                          <span class="user_title">Seller</span>
+                        </div>
+                      </div>
+                      <ul class="settings_options ul_li_block clearfix">
+                        <li>
+                          <a href="#!"
+                            ><i class="fal fa-user-circle"></i> Profile</a
+                          >
+                        </li>
+                        <li>
+                          <a href="#!"
+                            ><i class="fal fa-user-cog"></i> Settings</a
+                          >
+                        </li>
+                        <li>
+                          <a href="#!"
+                            ><i class="fal fa-sign-out-alt"></i> Logout</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <button type="button" class="cart_btn">
+                    <i class="fal fa-shopping-cart"></i>
+                    <span class="btn_badge">2</span>
+                  </button>
+                </li>
+              </ul>
+            </div> -->
           </div>
         </div>
       </div>
+
+      <!-- <div id="search_body_collapse" class="search_body_collapse collapse">
+        <div class="search_body">
+          <div class="container">
+            <form action="#">
+              <div class="form_item mb-0">
+                <input type="search" name="search" placeholder="Type here..." />
+                <button type="submit"><i class="fal fa-search"></i></button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div> -->
     </header>
     <!-- header_section - end -->
 
@@ -476,93 +583,132 @@
         </div>
       </section>
       <!-- about_section - end -->
+      <!-- WhatsApp Floating Icon -->
+      <a
+        href="https://wa.me/919371115506"
+        class="whatsapp_float"
+        target="_blank"
+        aria-label="Chat on WhatsApp"
+      >
+        <i class="fab fa-whatsapp"></i>
+      </a>
     </main>
     <!-- main body - end -->
 
     <!-- footer_section - start -->
     <footer
       class="footer_section fashion_minimal_footer clearfix"
-      data-bg-color="#222222"
+      style="background-color: #222222; position: relative; overflow: hidden"
     >
+      <!-- Back to Top -->
       <div class="backtotop" data-background="assets/images/shape_01.png">
-        <a href="#" class="scroll">
-          <i class="far fa-arrow-up"></i>
+        <a
+          href="#"
+          class="scroll d-flex align-items-center justify-content-center"
+        >
+          <i class="far fa-arrow-up text-gold fs-5"></i>
         </a>
       </div>
 
+      <!-- Footer Main -->
       <div class="footer_widget_area sec_ptb_100 clearfix">
         <div class="container">
-          <div class="row justify-content-lg-between">
+          <div class="row justify-content-lg-between g-4">
             <!-- Logo & About -->
-            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+            <div class="col-lg-3 col-md-6">
               <div class="footer_widget footer_about">
-                <div class="brand_logo mb_30">
+                <div class="brand_logo mb-4">
                   <a href="index.html">
                     <img
                       src="assets/home/logo/logo.jpg"
                       alt="Vardhman Gold Logo"
-                      style="max-width: 150px"
+                      style="max-width: 160px; border-radius: 10px"
                     />
                   </a>
                 </div>
-                <p class="mb-0 text-white">
-                  Vardhman Gold brings you an exclusive collection of 22KT pure
-                  gold and bridal jewellery, crafted with precision and passion
-                  to make every occasion shine with grace and luxury.
+                <p class="text-white-50 mb-0">
+                  Discover timeless elegance with
+                  <span class="text-gold fw-semibold">Vardhman Gold</span> —
+                  exquisite 22KT jewellery crafted to illuminate your every
+                  moment with brilliance and grace.
                 </p>
               </div>
             </div>
 
             <!-- Contact Info -->
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-              <div class="footer_widget footer_useful_links clearfix">
-                <h3 class="footer_widget_title text-white">Contact Us</h3>
-                <ul class="ul_li_block text-white">
-                  <li><i class="fal fa-phone-square"></i> +91 9371115506</li>
+            <div class="col-lg-3 col-md-6">
+              <div class="footer_widget">
+                <h3
+                  class="footer_widget_title text-white mb-3 position-relative"
+                >
+                  Contact Us
+                  <span
+                    style="
+                      width: 40px;
+                      height: 2px;
+                      background: #d4af37;
+                      display: block;
+                      margin-top: 6px;
+                    "
+                  ></span>
+                </h3>
+                <ul class="ul_li_block text-white-50">
                   <li>
-                    <i class="fal fa-envelope"></i> vardhaman.imp.exp@gmail.com
+                    <i class="fal fa-phone-square text-gold me-2"></i> +91
+                    9371115506
                   </li>
                   <li>
-                    <i class="fal fa-map-marker-alt"></i> 156/4, Near Shivaji
-                    Maharaj Statue, Khadki, Pune – 411003
+                    <i class="fal fa-envelope text-gold me-2"></i>
+                    vardhaman.imp.exp@gmail.com
+                  </li>
+                  <li>
+                    <i class="fal fa-map-marker-alt text-gold me-2"></i> 156/4,
+                    Near Shivaji Maharaj Statue, Khadki, Pune – 411003
                   </li>
                 </ul>
               </div>
             </div>
 
             <!-- Quick Links -->
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-              <div class="footer_widget footer_useful_links clearfix">
-                <h3 class="footer_widget_title text-white">Quick Links</h3>
+            <div class="col-lg-3 col-md-6">
+              <div class="footer_widget">
+                <h3
+                  class="footer_widget_title text-white mb-3 position-relative"
+                >
+                  Quick Links
+                  <span
+                    style="
+                      width: 40px;
+                      height: 2px;
+                      background: #d4af37;
+                      display: block;
+                      margin-top: 6px;
+                    "
+                  ></span>
+                </h3>
                 <ul class="ul_li_block">
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="about.html">About Us</a></li>
-                  <li><a href="contact.html">Contact Us</a></li>
-                  <li><a href="catalog.html">Catalog</a></li>
+                  <li>
+                    <a
+                      href="index.html"
+                      class="text-white-50 text-decoration-none hover-text-gold"
+                      >Home</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="about.html"
+                      class="text-white-50 text-decoration-none hover-text-gold"
+                      >About Us</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="contact.html"
+                      class="text-white-50 text-decoration-none hover-text-gold"
+                      >Contact Us</a
+                    >
+                  </li>
                 </ul>
-              </div>
-            </div>
-
-            <!-- Newsletter -->
-            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-              <div class="footer_widget fm_footer_newsletter">
-                <h3 class="footer_widget_title text-white">Stay Updated</h3>
-                <p class="text-white">
-                  Subscribe for exclusive updates on new collections, offers,
-                  and more.
-                </p>
-                <form action="#">
-                  <div class="form_item">
-                    <input
-                      type="email"
-                      name="email"
-                      placeholder="Your email address"
-                    />
-                  </div>
-                  <button type="submit" class="submit_btn text-uppercase">
-                    Subscribe
-                  </button>
-                </form>
               </div>
             </div>
           </div>
@@ -570,32 +716,47 @@
       </div>
 
       <!-- Footer Bottom -->
-      <div class="container">
-        <div class="footer_bottom text-center">
-          <ul class="circle_social_links ul_li_center clearfix">
-            <li>
-              <a href="#!"><i class="fab fa-facebook-f"></i></a>
-            </li>
-            <li>
-              <a href="#!"><i class="fab fa-instagram"></i></a>
-            </li>
-            <li>
-              <a href="#!"><i class="fab fa-youtube"></i></a>
-            </li>
-            <li>
-              <a href="#!"><i class="fab fa-whatsapp"></i></a>
-            </li>
-          </ul>
-          <p class="copyright_text mb-0 text-white">
-            © 2025 <strong>Vardhman Gold</strong>. All Rights Reserved.
-            <br />
-            Crafted with by
-            <a href="catalog.html" class="author_link text-gold"
-              >Vardhman Designs</a
+      <div style="border-top: 1px solid rgba(255, 255, 255, 0.1)">
+        <div class="container py-3 text-center">
+          <p class="copyright_text mb-0 text-white-50">
+            © 2025 <strong class="text-gold">Vardhman Gold</strong> — Where
+            Timeless Beauty Shines.<br />
+            Crafted with <span class="text-gold"></span> by
+            <a
+              href="#"
+              class="author_link text-gold fw-semibold text-decoration-none hover-text-light"
             >
+              Sprintofy
+            </a>
           </p>
         </div>
       </div>
+
+      <!-- Optional Hover Effects -->
+      <style>
+        .text-gold {
+          color: #d4af37 !important;
+        }
+        .hover-text-gold:hover {
+          color: #d4af37 !important;
+          transition: 0.3s ease;
+        }
+        .hover-text-light:hover {
+          color: #ffffff !important;
+          transition: 0.3s ease;
+        }
+        .footer_widget_title {
+          font-size: 1.2rem;
+          font-weight: 600;
+          letter-spacing: 0.5px;
+        }
+        .footer_widget ul li {
+          margin-bottom: 8px;
+        }
+        .footer_widget ul li i {
+          width: 20px;
+        }
+      </style>
     </footer>
     <!-- footer_section - end -->
 
