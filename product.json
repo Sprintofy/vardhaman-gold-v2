@@ -7,143 +7,113 @@
         "products": [
           {
             "id": "R001",
-            "name": "Gold Ring Lord Ganesh 22K Two Tone",
-            "category": "Men's gold rings",
+            "name": "Sapphire Pukhraj Gemstone Gold Plated Ring",
+            "category": "Women's and Men's gold rings",
             "weight": "4.10 Grams",
-            "material": "22KT Gold",
+            "material": "18KT Gold",
             "price": 25000,
-            "image": "assets/home/Rings/ring1.png",
+            "image": "assets/home/Rings/ring1.jpg",
             "tags": ["NEW", "BESTSELLER"]
           },
           {
             "id": "R002",
-            "name": "Gold Ring Lord Ganesh 22K",
-            "category": "Men's gold rings",
-            "weight": "4.10 Grams",
+            "name": "Gold Plated Layered Love Dual Hearts Ring ",
+            "category": "Women and Girls rings",
+            "weight": "3.10 Grams",
             "material": "22KT Gold",
             "price": 25000,
-            "image": "assets/home/Rings/ring2.png",
+            "image": "assets/home/Rings/ring2.jpg",
             "tags": ["NEW"]
           },
           {
             "id": "R003",
-            "name": "Gold Ring Lord Balaji For Men With CZ",
-            "category": "Men's gold rings",
-            "weight": "7.50 Grams",
+            "name": "Yellow Gold and American Diamond Ring",
+            "category": "Women's gold rings",
+            "weight": "0.993 Grams",
             "material": "22KT Gold",
             "price": 32000,
-            "image": "assets/home/Rings/ring3.png",
+            "image": "assets/home/Rings/ring3.jpg",
             "tags": ["BESTSELLER"]
           },
           {
             "id": "R004",
-            "name": "Men's OM Gold Ring With CZ Stones",
-            "category": "Men's gold rings",
-            "weight": "7.80 Grams",
+            "name": "Smooth Thin Stacking Rose Gold Ring",
+            "category": "Women's gold rings",
+            "weight": "2.80 Grams",
             "material": "22KT Gold",
             "price": 38000,
-            "image": "assets/home/Rings/ring4.png",
+            "image": "assets/home/Rings/ring4.jpg",
             "tags": ["NEW", "POPULAR"]
           },
           {
             "id": "R005",
-            "name": "Men's Initial R Ring With CZ Stones",
+            "name": "Premium Gold Plated Ganesha Ring",
             "category": "Men's gold rings",
             "weight": "7.50 Grams",
             "material": "22KT Gold",
             "price": 36000,
-            "image": "assets/home/Rings/ring5.png",
+            "image": "assets/home/Rings/ring5.jpg",
             "tags": ["POPULAR"]
           },
           {
             "id": "R006",
-            "name": "Gold Ring 22k Two Tone",
-            "category": "Ladies gold rings",
+            "name": "Manik Gemstone Panchdhatu Gold Ring ",
+            "category": "Women and Men's gold rings",
             "weight": "5.30 Grams",
             "material": "22KT Gold",
             "price": 28000,
-            "image": "assets/home/Rings/ring6.png",
+            "image": "assets/home/Rings/ring6.jpg",
             "tags": ["NEW"]
           },
           {
             "id": "R007",
-            "name": "Gold Ring 22k",
-            "category": "Ladies gold rings",
+            "name": "Sterling Silver Men's Classic Adjustable Band Ring",
+            "category": "Men's gold rings",
             "weight": "4.92 Grams",
             "material": "22KT Gold",
             "price": 26000,
-            "image": "assets/home/Rings/ring7.png",
+            "image": "assets/home/Rings/ring7.jpg",
             "tags": ["NEW"]
           },
           {
             "id": "R008",
-            "name": "Gold Ring For Men With CZ",
+            "name": " Sun finger ring",
             "category": "Men's gold rings",
             "weight": "7.20 Grams",
             "material": "22KT Gold",
             "price": 35000,
-            "image": "assets/home/Rings/ring8.png",
+            "image": "assets/home/Rings/ring8.jpg",
             "tags": ["BESTSELLER"]
           },
           {
             "id": "R009",
-            "name": "Gold Ring For Men With CZ",
-            "category": "Men's gold rings",
-            "weight": "6.50 Grams",
+            "name": "Handicraft Kottage Ethnic 18k Gold Plated Brass Ring",
+            "category": " Women, Girls and ladies rings",
+            "weight": "4.50 Grams",
             "material": "22KT Gold",
             "price": 33000,
-            "image": "assets/home/Rings/ring9.png",
+            "image": "assets/home/Rings/ring9.jpg",
             "tags": ["BESTSELLER"]
           },
           {
             "id": "R010",
-            "name": "Men's Ring With Cubic Zirconium Stones",
-            "category": "Men's gold rings",
-            "weight": "9.00 Grams",
+            "name": "Heart Ring in Gold Plated ",
+            "category": "Women's gold rings",
+            "weight": "2.50 Grams",
             "material": "22KT Gold",
-            "price": 42000,
-            "image": "assets/home/Rings/ring10.png",
-            "tags": ["BESTSELLER", "PREMIUM"]
+            "price": 38000,
+            "image": "assets/home/Rings/ring10.jpg",
+            "tags": ["POPULAR"]
           },
           {
             "id": "R011",
-            "name": "Men's Ring With CZ Stones 22k Gold",
-            "category": "Men's gold rings",
-            "weight": "7.50 Grams",
+            "name": "Golden Krishna's Flute and Feather Ring",
+            "category": "Women and Girls rings",
+            "weight": "5.00 Grams",
             "material": "22KT Gold",
-            "price": 38000,
-            "image": "assets/home/Rings/ring11.png",
-            "tags": ["POPULAR"]
-          },
-          {
-            "id": "R012",
-            "name": "Men's OM Gold Ring With CZ Stones",
-            "category": "Men's gold rings",
-            "weight": "7.80 Grams",
-            "material": "22KT Gold",
-            "price": 39000,
-            "image": "assets/home/Rings/ring12.png",
-            "tags": ["POPULAR"]
-          },
-          {
-            "id": "R013",
-            "name": "Men's Initial R Ring With CZ",
-            "category": "Men's gold rings",
-            "weight": "11.10 Grams",
-            "material": "22KT Gold",
-            "price": 48000,
-            "image": "assets/home/Rings/ring13.png",
-            "tags": ["PREMIUM"]
-          },
-          {
-            "id": "R014",
-            "name": "Men's Ring With Stone 22k Gold",
-            "category": "Men's gold rings",
-            "weight": "7.20 Grams",
-            "material": "22KT Gold",
-            "price": 36000,
-            "image": "assets/home/Rings/ring14.png",
-            "tags": ["POPULAR"]
+            "price": 42000,
+            "image": "assets/home/Rings/ring11.jpg",
+            "tags": ["BESTSELLER", "PREMIUM"]
           }
         ]
       },
@@ -153,12 +123,12 @@
         "products": [
           {
             "id": "C001",
-            "name": "Gold Hollow Rope Chain 16 Inches",
+            "name": " Locket Gold Plated Chain ",
             "category": "Gold Chains",
             "weight": "4.40 Grams",
             "material": "22KT Gold",
             "price": 55000,
-            "image": "assets/home/Chain/chain1.png",
+            "image": "assets/home/Chain/chain1.jpg",
             "tags": ["NEW", "BESTSELLER"]
           },
           {
@@ -259,82 +229,82 @@
         "products": [
           {
             "id": "B001",
-            "name": "Gold Bangles Set Of Two 22KT",
+            "name": "Shining Diva Fashion Latest Gold Bangles ",
             "category": "Gold Bangles",
             "weight": "23.80 Grams",
             "material": "22KT Gold",
             "price": 140000,
-            "image": "assets/home/Bengals/bengals1.png",
+            "image": "assets/home/Bengals/bengals1.webp",
             "tags": ["PREMIUM"]
           },
           {
             "id": "B002",
-            "name": "Classic Gold Bangles Set Of Two",
+            "name": "Gold Plated American Studded Royal Style Broad Golden Antique Kada Bangle ",
             "category": "Gold Bangles",
             "weight": "19.00 Grams",
             "material": "22KT Gold",
             "price": 115000,
-            "image": "assets/home/Bengals/bengals2.png",
+            "image": "assets/home/Bengals/bengals2.jpg",
             "tags": ["BESTSELLER"]
           },
           {
             "id": "B003",
-            "name": "Elegant Gold Bangles Set Of Two",
+            "name": "4 Gold-Plated Classic Textured Handcrafted Bangles",
             "category": "Gold Bangles",
             "weight": "19.72 Grams",
             "material": "22KT Gold",
             "price": 118000,
-            "image": "assets/home/Bengals/bengals3.png",
+            "image": "assets/home/Bengals/bengals3.jpg",
             "tags": ["NEW"]
           },
           {
             "id": "B004",
-            "name": "Designer Gold Bangles Set Of Two",
+            "name": "Traditional American Diamond Bangles ",
             "category": "Gold Bangles",
             "weight": "25.30 Grams",
             "material": "22KT Gold",
             "price": 148000,
-            "image": "assets/home/Bengals/bengals4.png",
+            "image": "assets/home/Bengals/bengals4.jpg",
             "tags": ["PREMIUM"]
           },
           {
             "id": "B005",
-            "name": "22k Gold Bangles Set Of Two",
+            "name": "Traditional Stylish Gold Plated Bangles ",
             "category": "Gold Bangles",
             "weight": "27.60 Grams",
             "material": "22KT Gold",
             "price": 162000,
-            "image": "assets/home/Bengals/bengals5.png",
+            "image": "assets/home/Bengals/bengals5.jpg",
             "tags": ["PREMIUM"]
           },
           {
             "id": "B006",
-            "name": "Gold Bangles Set Hand Print",
+            "name": "4 Gold-Plated Classic Paisley Shaped Textured Handcrafted Bangles",
             "category": "Gold Bangles",
             "weight": "36.26 Grams",
             "material": "22KT Gold",
             "price": 210000,
-            "image": "assets/home/Bengals/bengals6.png",
+            "image": "assets/home/Bengals/bengals6.jpg",
             "tags": ["PREMIUM", "EXCLUSIVE"]
           },
           {
             "id": "B007",
-            "name": "22k Gold Bangles with Enamel",
+            "name": "Traditional Gold Plated Bangles for Women",
             "category": "Exquisite Bangles",
             "weight": "41.10 Grams",
             "material": "22KT Gold",
             "price": 245000,
-            "image": "assets/home/Bengals/bengals7.png",
+            "image": "assets/home/Bengals/bengals7.jpg",
             "tags": ["PREMIUM", "EXCLUSIVE"]
           },
           {
             "id": "B008",
-            "name": "22k Gold Bangles Exquisite",
+            "name": "Gold Plated Bangle Set For Women",
             "category": "Exquisite Bangles",
             "weight": "48.90 Grams",
             "material": "22KT Gold",
             "price": 285000,
-            "image": "assets/home/Bengals/bengals8.png",
+            "image": "assets/home/Bengals/bengals8.jpg",
             "tags": ["PREMIUM", "BESTSELLER", "EXCLUSIVE"]
           }
         ]
@@ -345,72 +315,72 @@
         "products": [
           {
             "id": "N001",
-            "name": "Gold Necklace and Earring Set 22K",
+            "name": "Peora Gold Plated Green & Pink Stone ",
             "category": "Gold Sets",
             "weight": "38.70 Grams",
             "material": "22KT Gold",
             "price": 230000,
-            "image": "assets/home/Neckless/neckless1.png",
+            "image": "assets/home/Neckless/neckless1.jpg",
             "tags": ["EXCLUSIVE", "PREMIUM"]
           },
           {
             "id": "N002",
-            "name": "Gold Necklace Set With Stones & Enamel",
+            "name": "Fashion Frill Necklace Set For Women",
             "category": "Gold Sets",
             "weight": "52.80 Grams",
             "material": "22KT Gold",
             "price": 310000,
-            "image": "assets/home/Neckless/neckless2.png",
+            "image": "assets/home/Neckless/neckless2.jpg",
             "tags": ["BESTSELLER", "PREMIUM"]
           },
           {
             "id": "N003",
-            "name": "Necklace 22K Gold",
+            "name": " Bridal Necklace",
             "category": "Gold necklaces",
             "weight": "43.40 Grams",
             "material": "22KT Gold",
             "price": 255000,
-            "image": "assets/home/Neckless/neckless3.png",
+            "image": "assets/home/Neckless/neckless3.jpg",
             "tags": ["PREMIUM"]
           },
           {
             "id": "N004",
-            "name": "Simple Necklace 22K Gold",
+            "name": "American Diamond Studded Necklace ",
             "category": "Gold necklaces",
             "weight": "5.10 Grams",
             "material": "22KT Gold",
             "price": 32000,
-            "image": "assets/home/Neckless/neckless4.png",
+            "image": "assets/home/Neckless/neckless4.jpg",
             "tags": ["NEW"]
           },
           {
             "id": "N005",
-            "name": "Gold Necklace With Enamel",
+            "name": "Lakshmi Design Traditional Necklace Set",
             "category": "Gold necklaces",
             "weight": "44.00 Grams",
             "material": "22KT Gold",
             "price": 260000,
-            "image": "assets/home/Neckless/neckless5.png",
+            "image": "assets/home/Neckless/neckless5.jpg",
             "tags": ["PREMIUM", "EXCLUSIVE"]
           },
           {
             "id": "N006",
-            "name": "Gold Chain With Pendant 22k",
+            "name": "Yellow Chimes Multilayer Necklace for Womens Gold Toned Pearl Multilayer Necklace",
             "category": "Gold necklaces",
             "weight": "6.80 Grams",
             "material": "22KT Gold",
             "price": 42000,
-            "image": "assets/home/Neckless/neckless6.png",
+            "image": "assets/home/Neckless/neckless6.jpg",
             "tags": ["NEW", "POPULAR"]
           },
           {
             "id": "N007",
-            "name": "Traditional Gold Necklace And Earring Set",
+            "name": "Gold Plated Choker Necklace",
             "category": "Gold Sets",
             "weight": "49.30 Grams",
             "material": "22KT Gold",
             "price": 290000,
-            "image": "assets/home/Neckless/neckless7.png",
+            "image": "assets/home/Neckless/neckless7.jpg",
             "tags": ["BESTSELLER", "PREMIUM"]
           },
           {
@@ -420,37 +390,37 @@
             "weight": "34.90 Grams",
             "material": "22KT Gold",
             "price": 210000,
-            "image": "assets/home/Neckless/neckless8.png",
+            "image": "assets/home/Neckless/neckless8.jpg",
             "tags": ["PREMIUM"]
           },
           {
             "id": "N009",
-            "name": "Gold Necklace Set Hand Paint",
+            "name": " Gold Plated with Beaded Studded Choker Necklace",
             "category": "Gold Sets",
             "weight": "92.30 Grams",
             "material": "22KT Gold",
             "price": 540000,
-            "image": "assets/home/Neckless/neckless9.png",
+            "image": "assets/home/Neckless/necklesss9.png",
             "tags": ["PREMIUM", "EXCLUSIVE"]
           },
           {
             "id": "N010",
-            "name": "Gold Necklace And Earring Set with Enamel",
+            "name": "Indian Traditional Choker Necklace ",
             "category": "Gold Sets",
             "weight": "45.40 Grams",
             "material": "22KT Gold",
             "price": 268000,
-            "image": "assets/home/Neckless/neckless10.png",
+            "image": "assets/home/Neckless/neckless10.jpg",
             "tags": ["PREMIUM", "BESTSELLER"]
           },
           {
             "id": "N011",
-            "name": "Gold Necklace Earring Set With Stones",
+            "name": "Latest Choker Design Antique Kundan Traditional Necklace",
             "category": "Gold Sets",
             "weight": "37.00 Grams",
             "material": "22KT Gold",
             "price": 220000,
-            "image": "assets/home/Neckless/neckless11.png",
+            "image": "assets/home/Neckless/neckless11.jpg",
             "tags": ["PREMIUM"]
           }
         ]
@@ -461,82 +431,82 @@
         "products": [
           {
             "id": "E001",
-            "name": "Gold Earrings 22K",
+            "name": "Yellow Gold Dangle Drop Earrings",
             "category": "Gold earrings",
             "weight": "4.40 Grams",
             "material": "22KT Gold",
             "price": 26000,
-            "image": "assets/home/Earrings/earring1.png",
+            "image": "assets/home/Earrings/earring1.jpg",
             "tags": ["NEW", "BESTSELLER"]
           },
           {
             "id": "E002",
-            "name": "Gold Earrings with Enamel 22K",
+            "name": "Yellow Gold Arcade Shine Diamond Drop Earrings",
             "category": "Gold earrings",
             "weight": "8.10 Grams",
             "material": "22KT Gold",
             "price": 48000,
-            "image": "assets/home/Earrings/earring2.png",
+            "image": "assets/home/Earrings/earring2.jpg",
             "tags": ["NEW", "EXCLUSIVE"]
           },
           {
             "id": "E003",
-            "name": "Gold Earrings With Stone Two Tone",
+            "name": "Yellow Gold Drop Earrings With Crescent Design",
             "category": "Gold earrings",
             "weight": "6.04 Grams",
             "material": "22KT Gold",
             "price": 36000,
-            "image": "assets/home/Earrings/earring3.png",
+            "image": "assets/home/Earrings/earring3.jpg",
             "tags": ["NEW"]
           },
           {
             "id": "E004",
-            "name": "Gold Earrings 22k Traditional",
+            "name": " Gold Earrings for Women ",
             "category": "Gold earrings",
             "weight": "9.80 Grams",
             "material": "22KT Gold",
             "price": 58000,
-            "image": "assets/home/Earrings/earring4.png",
+            "image": "assets/home/Earrings/earring4.jpg",
             "tags": ["BESTSELLER", "POPULAR"]
           },
           {
             "id": "E005",
-            "name": "Gold Hook Earrings 22k",
+            "name": "Round Cut Moissanite Diamond Stud Earrings",
             "category": "Gold earrings",
             "weight": "6.50 Grams",
             "material": "22KT Gold",
             "price": 38000,
-            "image": "assets/home/Earrings/earring5.png",
+            "image": "assets/home/Earrings/earring5.jpg",
             "tags": ["BESTSELLER"]
           },
           {
             "id": "E006",
-            "name": "Drop Gold Earrings 22k",
+            "name": "Gold Plated Ethereal Bloom Earrings",
             "category": "Gold earrings",
             "weight": "9.90 Grams",
             "material": "22KT Gold",
             "price": 58000,
-            "image": "assets/home/Earrings/earring6.png",
+            "image": "assets/home/Earrings/earring6.jpg",
             "tags": ["POPULAR"]
           },
           {
             "id": "E007",
-            "name": "Gold Earrings with Enamel Work",
+            "name": "Yellow Gold Drop Earrings for Girls",
             "category": "Gold earrings",
             "weight": "6.80 Grams",
             "material": "22KT Gold",
             "price": 42000,
-            "image": "assets/home/Earrings/earring7.png",
+            "image": "assets/home/Earrings/earring7.jpg",
             "tags": ["POPULAR"]
           },
           {
             "id": "E008",
-            "name": "Gold Earrings With Stone Work",
+            "name": "Yellow Gold Drop Earrings With Geometric Design",
             "category": "Gold earrings",
             "weight": "6.76 Grams",
             "material": "22KT Gold",
             "price": 40000,
-            "image": "assets/home/Earrings/earring8.png",
+            "image": "assets/home/Earrings/earring8.jpg",
             "tags": ["BESTSELLER"]
           }
         ]
@@ -563,6 +533,16 @@
             "material": "18K Gold",
             "price": 48000,
             "image": "assets/home/Bracelets/bracelets2.webp",
+            "tags": ["NEW", "EXCLUSIVE"]
+          },
+          {
+            "id": "S0011",
+            "name": "Classic Gold Chain Bracelet",
+            "category": " Men's Bracelets",
+            "weight": "1.91 Grams",
+            "material": "18K Gold",
+            "price": 48000,
+            "image": "assets/home/Bracelets/braceletsm1.jpg",
             "tags": ["NEW", "EXCLUSIVE"]
           },
           {
@@ -596,6 +576,16 @@
             "tags": ["BESTSELLER"]
           },
           {
+            "id": "S0012",
+            "name": "Yellow Chimes Bracelets ",
+            "category": "Men's Bracelets",
+            "weight": "5.83 Grams",
+            "material": "18KT Gold",
+            "price": 38000,
+            "image": "assets/home/Bracelets/braceletsm2.jpg",
+            "tags": ["BESTSELLER"]
+          },
+          {
             "id": "S006",
             "name": "Luxury Tennis Bracelet",
             "category": "Bracelets",
@@ -624,6 +614,16 @@
             "material": "22KT Gold",
             "price": 40000,
             "image": "assets/home/Bracelets/bracelets8.webp",
+            "tags": ["BESTSELLER"]
+          },
+          {
+            "id": "S0013",
+            "name": "Stainless Steel Bracelet for Men Boys",
+            "category": "Men's Bracelets",
+            "weight": "2.70 Grams",
+            "material": "18KT Gold",
+            "price": 40000,
+            "image": "assets/home/Bracelets/braceletsm3.jpg",
             "tags": ["BESTSELLER"]
           },
           {
