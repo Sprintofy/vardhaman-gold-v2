@@ -107,12 +107,152 @@
           },
           {
             "id": "R011",
-            "name": "Golden Krishna's Flute and Feather Ring",
-            "category": "Women and Girls rings",
+            "name": " Zircon-Studded Leaf Ring for Women",
+            "category": "Women rings",
             "weight": "5.00 Grams",
             "material": "22KT Gold",
             "price": 42000,
             "image": "assets/home/Rings/ring11.jpg",
+            "tags": ["BESTSELLER", "PREMIUM"]
+          },
+          {
+            "id": "R012",
+            "name": "Yellow Gold Flower Ring for Women",
+            "category": "Women and Girls rings",
+            "weight": "5.00 Grams",
+            "material": "22KT Gold",
+            "price": 42000,
+            "image": "assets/home/Rings/ring12.jpg",
+            "tags": ["BESTSELLER", "PREMIUM"]
+          },
+          {
+            "id": "R013",
+            "name": "Gold Plated Brilliant Cubic Zirconia Ring",
+            "category": "Women and Girls rings",
+            "weight": "5.00 Grams",
+            "material": "22KT Gold",
+            "price": 42000,
+            "image": "assets/home/Rings/ring13.jpg",
+            "tags": ["BESTSELLER", "PREMIUM"]
+          },
+          {
+            "id": "R014",
+            "name": "Twist Cross Ring for Women",
+            "category": "Women and Girls rings",
+            "weight": "5.00 Grams",
+            "material": "22KT Gold",
+            "price": 42000,
+            "image": "assets/home/Rings/ring14.jpg",
+            "tags": ["BESTSELLER", "PREMIUM"]
+          },
+          {
+            "id": "R015",
+            "name": "White CZ-Studded Finger Ring for Women",
+            "category": "Women  rings",
+            "weight": "5.00 Grams",
+            "material": "22KT Gold",
+            "price": 42000,
+            "image": "assets/home/Rings/ring15.webp",
+            "tags": ["BESTSELLER", "PREMIUM"]
+          },
+          {
+            "id": "R016",
+            "name": "Silver Plated Crystal Infinity Couple Rings ",
+            "category": "Women and Men's gold rings",
+            "weight": "5.00 Grams",
+            "material": "22KT Gold",
+            "price": 42000,
+            "image": "assets/home/Rings/ring16.jpg",
+            "tags": ["BESTSELLER", "PREMIUM"]
+          },
+          {
+            "id": "R017",
+            "name": "Yellow Chimes Rings for Men Western Style Band Rings ",
+            "category": "Women and Girls rings",
+            "weight": "5.00 Grams",
+            "material": "22KT Gold",
+            "price": 42000,
+            "image": "assets/home/Rings/ring17.jpg",
+            "tags": ["BESTSELLER", "PREMIUM"]
+          },
+          {
+            "id": "R018",
+            "name": " Gold Ring For Women ",
+            "category": "Women and Girls rings",
+            "weight": "5.00 Grams",
+            "material": "22KT Gold",
+            "price": 42000,
+            "image": "assets/home/Rings/ring18.jpg",
+            "tags": ["BESTSELLER", "PREMIUM"]
+          },
+          {
+            "id": "R019",
+            "name": "Men's Eagle Design Gold Ring",
+            "category": "Men's gold rings",
+            "weight": "5.00 Grams",
+            "material": "22KT Gold",
+            "price": 42000,
+            "image": "assets/home/Rings/ring19.jpg",
+            "tags": ["BESTSELLER", "PREMIUM"]
+          },
+          {
+            "id": "R020",
+            "name": "Gold & Diamonds Gold Ring for Women 22 K",
+            "category": "Women's gold rings",
+            "weight": "5.00 Grams",
+            "material": "22KT Gold",
+            "price": 42000,
+            "image": "assets/home/Rings/ring20.jpg",
+            "tags": ["BESTSELLER", "PREMIUM"]
+          },
+          {
+            "id": "R021",
+            "name": "Silver Golden Classic Band For Him,Fixed Size",
+            "category": "Men's gold rings",
+            "weight": "5.00 Grams",
+            "material": "22KT Gold",
+            "price": 42000,
+            "image": "assets/home/Rings/ring21.jpg",
+            "tags": ["BESTSELLER", "PREMIUM"]
+          },
+          {
+            "id": "R022",
+            "name": "Yellow Gold Natural Diamond Ring for Women",
+            "category": "Women's gold rings",
+            "weight": "5.00 Grams",
+            "material": "22KT Gold",
+            "price": 42000,
+            "image": "assets/home/Rings/ring22.jpg",
+            "tags": ["BESTSELLER", "PREMIUM"]
+          },
+          {
+            "id": "R023",
+            "name": "Gold Plated Chillain Work Design Finger Ring ",
+            "category": "Men's gold rings",
+            "weight": "5.00 Grams",
+            "material": "22KT Gold",
+            "price": 42000,
+            "image": "assets/home/Rings/ring23.jpg",
+            "tags": ["BESTSELLER", "PREMIUM"]
+          },
+          {
+            "id": "R024",
+            "name": "Exclusive Yellow Gold Ring For Women ",
+            "category": "Women's gold rings",
+            "weight": "5.00 Grams",
+            "material": "22KT Gold",
+            "price": 42000,
+            "image": "assets/home/Rings/ring24.jpg",
+            "tags": ["BESTSELLER", "PREMIUM"]
+          },
+          {
+            "id": "R025",
+            "name": "Gold ring with diamond",
+            "category": " gold rings",
+            "weight": "5.00 Grams",
+            "material": "22KT Gold",
+            "price": 42000,
+            "image": "assets/home/Rings/ring25.jpg",
             "tags": ["BESTSELLER", "PREMIUM"]
           }
         ]
@@ -219,6 +359,156 @@
             "material": "22KT Gold",
             "price": 55000,
             "image": "assets/home/Chain/chain10.webp",
+            "tags": ["NEW", "BESTSELLER"]
+          },
+          {
+            "id": "C0011",
+            "name": "Thick Spiral Gold Chain ",
+            "category": "Men's Gold Chains",
+            "weight": "5.80 Grams",
+            "material": "22KT Gold",
+            "price": 55000,
+            "image": "assets/home/Chain/chain11.jpg",
+            "tags": ["NEW", "BESTSELLER"]
+          },
+          {
+            "id": "C0012",
+            "name": "Yellow Gold Chain for Women ",
+            "category": " Gold Chains",
+            "weight": "5.80 Grams",
+            "material": "22KT Gold",
+            "price": 55000,
+            "image": "assets/home/Chain/chain12.jpg",
+            "tags": ["NEW", "BESTSELLER"]
+          },
+          {
+            "id": "C0013",
+            "name": "Yellow Gold Chain for Women ",
+            "category": "Men's Gold Chains",
+            "weight": "5.80 Grams",
+            "material": "22KT Gold",
+            "price": 55000,
+            "image": "assets/home/Chain/chain13.jpg",
+            "tags": ["NEW", "BESTSELLER"]
+          },
+          {
+            "id": "C0014",
+            "name": "Golden Chain For Men Neck Chain Gold Chain  ",
+            "category": "Men's Gold Chains",
+            "weight": "5.80 Grams",
+            "material": "22KT Gold",
+            "price": 55000,
+            "image": "assets/home/Chain/chain14.jpg",
+            "tags": ["NEW", "BESTSELLER"]
+          },
+          {
+            "id": "C0015",
+            "name": "Micro Gold Plated  Gold Chain ",
+            "category": "Men's Gold Chains",
+            "weight": "5.80 Grams",
+            "material": "22KT Gold",
+            "price": 55000,
+            "image": "assets/home/Chain/chain15.jpg",
+            "tags": ["NEW", "BESTSELLER"]
+          },
+          {
+            "id": "C0016",
+            "name": "Golden Chain Thin Light Weighted Gold Plated Gold Chain ",
+            "category": "Men's Gold Chains",
+            "weight": "5.80 Grams",
+            "material": "22KT Gold",
+            "price": 55000,
+            "image": "assets/home/Chain/chain16.jpg",
+            "tags": ["NEW", "BESTSELLER"]
+          },
+          {
+            "id": "C0017",
+            "name": "Yellow Gold Precious Chain ",
+            "category": "Men's Gold Chains",
+            "weight": "5.80 Grams",
+            "material": "22KT Gold",
+            "price": 55000,
+            "image": "assets/home/Chain/chain17.jpg",
+            "tags": ["NEW", "BESTSELLER"]
+          },
+          {
+            "id": "C0018",
+            "name": " Gold Chain For Men Gold Plated Metal Necklace Chains  ",
+            "category": "Men's Gold Chains",
+            "weight": "5.80 Grams",
+            "material": "22KT Gold",
+            "price": 55000,
+            "image": "assets/home/Chain/chain18.jpg",
+            "tags": ["NEW", "BESTSELLER"]
+          },
+          {
+            "id": "C0019",
+            "name": "Gold Plated Stylish Golden Chain  ",
+            "category": "Men's Gold Chains",
+            "weight": "5.80 Grams",
+            "material": "22KT Gold",
+            "price": 55000,
+            "image": "assets/home/Chain/chain19.jpg",
+            "tags": ["NEW", "BESTSELLER"]
+          },
+          {
+            "id": "C0020",
+            "name": "Fashion Frill Stylish Golden Chain For Men",
+            "category": "Men's Gold Chains",
+            "weight": "5.80 Grams",
+            "material": "22KT Gold",
+            "price": 55000,
+            "image": "assets/home/Chain/chain20.jpg",
+            "tags": ["NEW", "BESTSELLER"]
+          },
+          {
+            "id": "C0021",
+            "name": "Gold Chain For Men Stylish Gold Plated Brass Golden Chain",
+            "category": "Men's Gold Chains",
+            "weight": "5.80 Grams",
+            "material": "22KT Gold",
+            "price": 55000,
+            "image": "assets/home/Chain/chain21.jpg",
+            "tags": ["NEW", "BESTSELLER"]
+          },
+          {
+            "id": "C0022",
+            "name": "Golden Chain For Men ",
+            "category": "Men's Gold Chains",
+            "weight": "5.80 Grams",
+            "material": "22KT Gold",
+            "price": 55000,
+            "image": "assets/home/Chain/chain22.jpg",
+            "tags": ["NEW", "BESTSELLER"]
+          },
+          {
+            "id": "C0023",
+            "name": "Golden Stainless Steel Rope Chain",
+            "category": "Men's Gold Chains",
+            "weight": "5.80 Grams",
+            "material": "22KT Gold",
+            "price": 55000,
+            "image": "assets/home/Chain/chain23.jpg",
+            "tags": ["NEW", "BESTSELLER"]
+          },
+          {
+            "id": "C0024",
+            "name": "Golden Chain For Men  ",
+            "category": "Men's Gold Chains",
+            "weight": "5.80 Grams",
+            "material": "22KT Gold",
+            "price": 55000,
+            "image": "assets/home/Chain/chain24.jpg",
+            "tags": ["NEW", "BESTSELLER"]
+          },
+          {
+            "id": "C0025",
+            "name": "Fashion Frill Trending Silver Golden Chain ",
+            "category": "Men's Gold Chains",
+            "weight": "5.80 Grams",
+            "material": "22KT Gold",
+            "price": 55000,
+            "image": "assets/home/Chain/chain25.jpg",
             "tags": ["NEW", "BESTSELLER"]
           }
         ]
@@ -644,6 +934,126 @@
             "material": "18KT Gold",
             "price": 40000,
             "image": "assets/home/Bracelets/bracelets10.webp",
+            "tags": ["BESTSELLER"]
+          },
+          {
+            "id": "S0014",
+            "name": "18K Gold Plated Stainless Steel",
+            "category": "Bracelets",
+            "weight": "2.60 Grams",
+            "material": "18KT Gold",
+            "price": 40000,
+            "image": "assets/home/Bracelets/bracelets14.jpg",
+            "tags": ["BESTSELLER"]
+          },
+          {
+            "id": "S0015",
+            "name": "Yellow Chimes Bracelets for Boys and Men",
+            "category": "Bracelets",
+            "weight": "2.60 Grams",
+            "material": "18KT Gold",
+            "price": 40000,
+            "image": "assets/home/Bracelets/bracelets15.jpg",
+            "tags": ["BESTSELLER"]
+          },
+          {
+            "id": "S0016",
+            "name": "Stainless Steel Aum Bracelet for Men Stainless Steel ",
+            "category": "Bracelets",
+            "weight": "2.60 Grams",
+            "material": "18KT Gold",
+            "price": 40000,
+            "image": "assets/home/Bracelets/bracelets16.jpg",
+            "tags": ["BESTSELLER"]
+          },
+          {
+            "id": "S0017",
+            "name": "Gold Figaro Chain Bracelet ",
+            "category": "Bracelets",
+            "weight": "2.60 Grams",
+            "material": "18KT Gold",
+            "price": 40000,
+            "image": "assets/home/Bracelets/bracelets17.jpg",
+            "tags": ["BESTSELLER"]
+          },
+          {
+            "id": "S0018",
+            "name": "Trendy Premium White Stone Bracelet for Women",
+            "category": "Bracelets",
+            "weight": "2.60 Grams",
+            "material": "18KT Gold",
+            "price": 40000,
+            "image": "assets/home/Bracelets/bracelets18.jpg",
+            "tags": ["BESTSELLER"]
+          },
+          {
+            "id": "S0019",
+            "name": " Rose Gold Plated Crystal Bangle Bracelet for Women",
+            "category": "Bracelets",
+            "weight": "2.60 Grams",
+            "material": "18KT Gold",
+            "price": 40000,
+            "image": "assets/home/Bracelets/bracelets19.jpg",
+            "tags": ["BESTSELLER"]
+          },
+          {
+            "id": "S0020",
+            "name": "Sterling Silver Heart Kada Bracelet",
+            "category": "Bracelets",
+            "weight": "2.60 Grams",
+            "material": "18KT Gold",
+            "price": 40000,
+            "image": "assets/home/Bracelets/bracelets20.jpg",
+            "tags": ["BESTSELLER"]
+          },
+          {
+            "id": "S0021",
+            "name": " Gold Plated Linked Chain Bracelet",
+            "category": "Bracelets",
+            "weight": "2.60 Grams",
+            "material": "18KT Gold",
+            "price": 40000,
+            "image": "assets/home/Bracelets/bracelets21.jpg",
+            "tags": ["BESTSELLER"]
+          },
+          {
+            "id": "S0022",
+            "name": "Stainless Steel Bracelet for Women",
+            "category": "Bracelets",
+            "weight": "2.60 Grams",
+            "material": "18KT Gold",
+            "price": 40000,
+            "image": "assets/home/Bracelets/bracelets22.jpg",
+            "tags": ["BESTSELLER"]
+          },
+          {
+            "id": "S0023",
+            "name": "Silver Kada Mini Heart Infinity Bracelet ",
+            "category": "Bracelets",
+            "weight": "2.60 Grams",
+            "material": "18KT Gold",
+            "price": 40000,
+            "image": "assets/home/Bracelets/bracelets23.jpg",
+            "tags": ["BESTSELLER"]
+          },
+          {
+            "id": "S0024",
+            "name": "Trend Gold Plated Bead Hand Bracelets",
+            "category": "Bracelets",
+            "weight": "2.60 Grams",
+            "material": "18KT Gold",
+            "price": 40000,
+            "image": "assets/home/Bracelets/bracelets24.jpg",
+            "tags": ["BESTSELLER"]
+          },
+          {
+            "id": "S0025",
+            "name": " Pearls Dealer Lainey Pearl Bracelet ",
+            "category": "Bracelets",
+            "weight": "2.60 Grams",
+            "material": "18KT Gold",
+            "price": 40000,
+            "image": "assets/home/Bracelets/bracelets25.jpg",
             "tags": ["BESTSELLER"]
           }
         ]
