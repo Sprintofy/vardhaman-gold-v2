@@ -6,6 +6,66 @@
         "name": "Rings",
         "products": [
           {
+            "id": "R0001",
+            "name": " Fashionable Religious Finger Rings For Men",
+            "category": " Men's gold rings",
+            "weight": "4.10 Grams",
+            "material": "18KT Gold",
+            "price": 25000,
+            "image": "assets/home/Rings/ring01.jpg",
+            "tags": [ "BESTSELLER"]
+          },
+          {
+            "id": "R0002",
+            "name": "MAA Gents ring",
+            "category": "Men's gold rings",
+            "weight": "4.10 Grams",
+            "material": "18KT Gold",
+            "price": 25000,
+            "image": "assets/home/Rings/ring02.jpg",
+            "tags": ["NEW"]
+          },
+          {
+            "id": "R0003",
+            "name": "Lord Ganesha Ring for Men",
+            "category": " Men's gold rings",
+            "weight": "4.10 Grams",
+            "material": "18KT Gold",
+            "price": 25000,
+            "image": "assets/home/Rings/ring03.webp",
+            "tags": ["NEW", "POPULAR"]
+          },
+          {
+            "id": "R0004",
+            "name": "Daimond Ring for men ",
+            "category": " Men's gold rings",
+            "weight": "4.10 Grams",
+            "material": "18KT Gold",
+            "price": 25000,
+            "image": "assets/home/Rings/ring04.webp",
+            "tags": ["NEW"]
+          },
+          {
+            "id": "R0005",
+            "name": " Diamond Gold Plated Adjustable Ring for Couples",
+            "category": "Women's and Men's gold rings",
+            "weight": "4.10 Grams",
+            "material": "18KT Gold",
+            "price": 25000,
+            "image": "assets/home/Rings/ring05.jpg",
+            "tags": ["NEW"]
+          },
+          {
+            "id": "R0006",
+            "name": " Satymev Jayate Gold Plated Ring ",
+            "category": " Men's gold rings",
+            "weight": "4.10 Grams",
+            "material": "18KT Gold",
+            "price": 25000,
+            "image": "assets/home/Rings/ring06.jpg",
+            "tags": ["NEW", "POPULAR"]
+          },
+          {
             "id": "R001",
             "name": "Sapphire Pukhraj Gemstone Gold Plated Ring",
             "category": "Women's and Men's gold rings",
@@ -15,6 +75,7 @@
             "image": "assets/home/Rings/ring1.jpg",
             "tags": ["NEW", "BESTSELLER"]
           },
+
           {
             "id": "R002",
             "name": "Gold Plated Layered Love Dual Hearts Ring ",
@@ -261,6 +322,67 @@
         "id": "chains",
         "name": "Chains",
         "products": [
+          {
+            "id": "C0001",
+            "name": " Locket Gold Plated Chain ",
+            "category": "Gold Chains",
+            "weight": "4.40 Grams",
+            "material": "22KT Gold",
+            "price": 55000,
+            "image": "assets/home/Chain/chain01.webp",
+            "tags": ["NEW", "BESTSELLER"]
+          },
+          {
+            "id": "C0002",
+            "name": " gold plated chain For Man  ",
+            "category": "Gold Chains",
+            "weight": "2.40 Grams",
+            "material": "22KT Gold",
+            "price": 55000,
+            "image": "assets/home/Chain/chain02.webp",
+            "tags": ["NEW", "BESTSELLER"]
+          },
+          {
+            "id": "C0003",
+            "name": " Gold Plated Glittering Design Rajwadi Chain for Men ",
+            "category": "Gold Chains",
+            "weight": "5.40 Grams",
+            "material": "22KT Gold",
+            "price": 55000,
+            "image": "assets/home/Chain/chain03.webp",
+            "tags": ["NEW", "BESTSELLER"]
+          },
+          {
+            "id": "C0004",
+            "name": "  Detailed Design Gold Plated Pokal Chain for Men ",
+            "category": "Gold Chains",
+            "weight": "1.40 Grams",
+            "material": "22KT Gold",
+            "price": 55000,
+            "image": "assets/home/Chain/chain04.webp",
+            "tags": ["NEW", "BESTSELLER"]
+          },
+          {
+            "id": "C0005",
+            "name": " Gold Plated v Shape Exciting Design ",
+            "category": "Gold Chains",
+            "weight": "3.40 Grams",
+            "material": "22KT Gold",
+            "price": 55000,
+            "image": "assets/home/Chain/chain05.webp",
+            "tags": ["NEW", "BESTSELLER"]
+          },
+          {
+            "id": "C0006",
+            "name": " Gold Plated Popular Design Rajwadi Chain for Men ",
+            "category": "Gold Chains",
+            "weight": "2.40 Grams",
+            "material": "22KT Gold",
+            "price": 55000,
+            "image": "assets/home/Chain/chain06.webp",
+            "tags": ["NEW", "BESTSELLER"]
+          },
+
           {
             "id": "C001",
             "name": " Locket Gold Plated Chain ",
@@ -805,6 +927,66 @@
         "id": "bracelets",
         "name": "Bracelets",
         "products": [
+          {
+            "id": "S0001",
+            "name": "Fashion Golden Bracelet for Men",
+            "category": "Bracelets",
+            "weight": "2.6 grams",
+            "material": "18KT Gold",
+            "price": 26000,
+            "image": "assets/home/Bracelets/bracelets01.webp",
+            "tags": ["NEW", "BESTSELLER"]
+          },
+          {
+            "id": "S0002",
+            "name": "Gold Plated 2 In 1 Pokal Bracelet for Men",
+            "category": "Bracelets",
+            "weight": "2.6 grams",
+            "material": "18KT Gold",
+            "price": 26000,
+            "image": "assets/home/Bracelets/bracelets02.webp",
+            "tags": ["NEW", "BESTSELLER"]
+          },
+          {
+            "id": "S0003",
+            "name": " Gold Plated Pokal Bracelet for Men",
+            "category": "Bracelets",
+            "weight": "2.6 grams",
+            "material": "18KT Gold",
+            "price": 26000,
+            "image": "assets/home/Bracelets/bracelets03.webp",
+            "tags": ["NEW", "BESTSELLER"]
+          },
+          {
+            "id": "S0004",
+            "name": "Fashion Golden Bracelet for Men",
+            "category": "Bracelets",
+            "weight": "2.6 grams",
+            "material": "18KT Gold",
+            "price": 26000,
+            "image": "assets/home/Bracelets/bracelets04.jpg",
+            "tags": ["NEW", "BESTSELLER"]
+          },
+          {
+            "id": "S0005",
+            "name": "Gold plated chain for men Heavy design Bracelet",
+            "category": "Bracelets",
+            "weight": "2.6 grams",
+            "material": "18KT Gold",
+            "price": 26000,
+            "image": "assets/home/Bracelets/bracelets05.jpg",
+            "tags": ["NEW", "BESTSELLER"]
+          },
+          {
+            "id": "S0006",
+            "name": " Gold Plated Linked Chain Bracelet",
+            "category": "Bracelets",
+            "weight": "2.6 grams",
+            "material": "18KT Gold",
+            "price": 26000,
+            "image": "assets/home/Bracelets/bracelets06.png",
+            "tags": ["NEW", "BESTSELLER"]
+          },
           {
             "id": "S001",
             "name": "Heart Linked Charm Bracelet",
